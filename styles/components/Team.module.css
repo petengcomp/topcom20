@@ -1,0 +1,33 @@
+.team {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 100px;
+    background-color: coral;
+    width: 250px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.teamBlack:hover {
+    background-color: #141413da;
+}
+
+.teamWhite:hover {
+    background-color: #fef3dec5;
+}
+
+.teamBlack {
+    background-color: #21201E;
+    color: #FEF3DE;
+    border-color: #FEF3DE;
+}
+
+.teamWhite {
+    background-color: #FEF3DE;
+    color: #21201E;
+    border-color: #FEF3DE;
+}
