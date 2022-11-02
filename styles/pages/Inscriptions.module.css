@@ -1,0 +1,30 @@
+.bodyImageContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.mainContainer {
+    margin-right: 6.875rem;
+    margin-left: 6.875rem;
+    
+}
+
+.mainInformationContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.mainInformationContainer span {
+    color: var(--primary);
+}
+
+
+.textContainer {
+    font-size:  1.3125rem;
+}
+
+.CTImage {
+    width: 100%;
+    height: 100%;
+}
