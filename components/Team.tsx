@@ -9,8 +9,12 @@ interface TeamProps {
 export function Team({ teamName, teamParticipants, index }: TeamProps) {
     return (
         <div className={`${styles.team} ${index % 2 == 0 ? styles.teamWhite : styles.teamBlack}`} >
-            {teamName} <br></br>
-            {teamParticipants}
+            <p className={styles.teamName}>
+                {teamName}
+            </p>
+            <p className={styles.teamParticipant}>{teamParticipants[0]}</p>
+            <p className={styles.teamParticipant}>{teamParticipants[1]}</p>
+            <p className={styles.teamParticipant}>{teamParticipants[2]}</p>
         </div>
     )
 }
