@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import { Team } from "../components/Team"
+import { Header } from "../components/Header"
 import styles from "../styles/pages/Teams.module.css"
 
 export default function Teams() {
@@ -7,9 +8,8 @@ export default function Teams() {
     <div>
       <Navbar fromParentSelected={6} />
 
-      <div className={styles.teamsHeader}>
-        <p>---------- EQUIPES CONFIRMADAS ----------</p>
-      </div>
+      <Header text="EQUIPES CONFIRMADAS" />
+
 
       <div className={styles.teamsContainer}>
         <Team key={0} index={0} teamName="Manjava" teamParticipants={["luiz", "matheus"]} />

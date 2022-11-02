@@ -1,0 +1,27 @@
+.headerContainer {
+    padding: 100px 0px 100px 0px;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.headerContainer:before,
+.headerContainer:after {
+    background-color: #FEF3DE;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.headerContainer:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.headerContainer:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
