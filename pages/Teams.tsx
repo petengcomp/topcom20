@@ -1,12 +1,15 @@
+import Image from 'next/image';
 import { Navbar } from "../components/Navbar";
 import { Team } from "../components/Team"
 import { Header } from "../components/Header"
 import styles from "../styles/pages/Teams.module.css"
+import bodyImage1 from '../assets/bodyImage1.png'
 
 export default function Teams() {
   return (
     <div>
       <Navbar fromParentSelected={6} />
+      <Image className={styles.bodyImageContainer} src={bodyImage1} alt='Imagem de corpo do site' />
 
       <Header text="EQUIPES CONFIRMADAS" />
 
