@@ -32,6 +32,12 @@
 .prices {
     display: flex;
     flex-direction: column;
+
+    width: 30rem;
+
+    margin-top: 3rem;
+
+    gap: 3.5625rem; 
 }
 
 .priceBox {
@@ -43,27 +49,37 @@
     font-weight: bold;
 }
 
-.priceBox p:nth-child(1) {
-    font-size: 4rem;
-    
+.priceBox p {
+    font-size: 4.5rem;
+    color: var(--quinquernary);
 }
 
 .localization {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     background: var(--quinquernary);
+
     
     color: var(--quaternary);
     font-weight: bold;
     font-size: 1rem;
 }
 
-/* .CTimage {
-    width: 100%;
-} */
+.map {
+    border: 7px solid var(--primary);
+}
+
+.mapDescription {
+    padding: 1rem;
+}
+
+.mapDescription p {
+    text-align: center;
+    font-size: 0.9rem; 
+}
 
 .saoMatheusInfo {
     border: 1px solid var(--quinquernary);

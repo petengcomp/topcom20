@@ -40,19 +40,21 @@ export default function Inscriptions() {
           <div className={styles.prices}>
             <div className={styles.priceBox}>
               <p>R$ 90,00</p>
-              <p><span>TAXA DE INSCRIÇÃO</span></p>
-              <p><span>(por equipe)</span></p>
+              <span>TAXA DE INSCRIÇÃO</span>
+              <span>(por equipe)</span>
             </div>
             <div className={styles.priceBox}>
               <p>R$ 30,00</p>
-              <p><span>TAXA DE INSCRIÇÃO</span></p>
-              <p><span>(por participante)</span></p>
+              <span>TAXA DE INSCRIÇÃO</span>
+              <span>(por participante)</span>
             </div>
           </div>
 
           <div className={styles.localization}>
-            <Image className={styles.CTimage} src={mapaCT13} alt='Mapa da localização do CT-13 na UFES' />
-            <p>CENTRO TECNOLÓGICO 13 - SEGUNDO ANDAR - SALA 18 - PET ENGENHARIA DA COMPUTAÇÃO</p>
+            <div className={styles.map}><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1432.609919407377!2d-40.30672575358298!3d-20.273095363306044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa91fe2e972579dc6!2sCT%20IX%20-%20Departamento%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1667597583900!5m2!1spt-BR!2sbr" width="400" height="330" loading="lazy" ></iframe></div>
+            <div className={styles.mapDescription}>
+              <p>CENTRO TECNOLÓGICO 9 - SEGUNDO ANDAR - LABGRAD 3 - LABORATÓRIO DE INFORMÁTICA</p>
+            </div>
           </div>
         </div>
 
