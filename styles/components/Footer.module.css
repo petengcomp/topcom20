@@ -1,0 +1,70 @@
+.footer {
+    margin-top: 10.5rem;
+}
+
+.patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.organization {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15.875rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 1.67625rem;
+
+    margin-top: 4.375rem;
+}
+
+.logo {
+    width: 13.52125rem;
+    height: 5.670625rem;
+}
+
+.bottomFooter {
+    display: flex;
+    gap: 10.125rem;
+
+    background: black;
+}
+
+.topqui {
+    width: 45%;
+    height: 45%;
+}
+
+.anotations {
+    margin-top: 5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10.125rem;
+
+    margin-bottom: 10rem;
+
+    font-size: 1.5rem;
+}
+
+.contact h3 {
+    margin-bottom: 1.5rem;
+}
+
+.anotations p {
+    font-family: 'Inter', sans-serif;
+}

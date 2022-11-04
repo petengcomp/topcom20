@@ -15,6 +15,11 @@
     gap: 5rem;
 }
 
+.mainText {
+    width: 45rem;
+    text-justify: left;
+}
+
 .mainInformationContainer span {
     color: var(--primary);
 }
@@ -24,7 +29,64 @@
     font-size:  1.3125rem;
 }
 
-.CTImage {
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+.priceBox p:nth-child(1) {
+    font-size: 4rem;
+    
+}
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--quinquernary);
+    
+    color: var(--quaternary);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* .CTimage {
     width: 100%;
-    height: 100%;
+} */
+
+.saoMatheusInfo {
+    border: 1px solid var(--quinquernary);
+
+    padding-left: 3.375rem;
+    padding-right: 3.375rem;
+    padding-top: 1.3125rem;
+    padding-bottom: 1.3125rem;
+
+    margin-top: 8.125rem;
+    margin-bottom: 9.1875rem;
+}
+
+.saoMatheusInfo p:nth-child(1) {
+    text-align: center;
+}
+
+.saoMatheusInfo p:nth-child(5) {
+    font-style: italic;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 0.9375rem;
+}
+
+.saoMatheusInfo span {
+    font-weight: bold;
 }
