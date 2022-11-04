@@ -1,0 +1,39 @@
+.bodyImageContainer {
+    width: 100%;
+    height: 100%;
+}
+.empty{
+    width: 100%;
+    height: 70px;
+}
+.contentColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15rem;
+}
+.contentRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lineBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.line{
+    width: 5px;
+    height: 82px;
+    background-color: #F2F2F2;
+}
+.lineFull{
+    width: 5px;
+    height: fit-conautent;
+    background-color: #F2F2F2;
+}
+.fillDiv{
+    width: 100%;
+    height: 100%;
+}
