@@ -6,21 +6,23 @@ import styles from '../styles/pages/Index.module.css'
 
 import HEADER from '../assets/header.png'
 import { Header } from '../components/Header';
+import ImageBanner from '../components/ImageBanner';
+import { Footer } from '../components/Footer';
 
 export default function Home() {
 
-  const [emojiTitle, setEmojiTitle] = useState<string>('👨‍💻');
+  // const [emojiTitle, setEmojiTitle] = useState<string>('👨‍💻');
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (emojiTitle === '👨‍💻') setEmojiTitle('🎈')
-      else if (emojiTitle === '🎈') setEmojiTitle('👩‍💻')
-      else setEmojiTitle('👨‍💻')
-    }, 1000)
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (emojiTitle === '👨‍💻') setEmojiTitle('🎈')
+  //     else if (emojiTitle === '🎈') setEmojiTitle('👩‍💻')
+  //     else setEmojiTitle('👨‍💻')
+  //   }, 1000)
 
-    return () => clearInterval(interval)
+  //   return () => clearInterval(interval)
 
-  }, [emojiTitle])
+  // }, [emojiTitle])
 
 
 
@@ -29,7 +31,8 @@ export default function Home() {
 
     <div className={styles.mainContainer}>
       <Head>
-        <title>TOPCOM20・{emojiTitle}・Torneio de Programação de Computadores・2022</title>
+        {/* <title>TOPCOM20・{emojiTitle}・Torneio de Programação de Computadores・2022</title> */}
+        <title>TOPCOM20・Torneio de Programação de Computadores・2022</title>
         <meta name="description" content="Author: PET EngComp, Torneio de Programação de Computadores" />
         <meta content="TOPCOM 20" property="og:title"></meta>
 
@@ -38,15 +41,28 @@ export default function Home() {
 
       <Navbar fromParentSelected={1} />
 
-      <Image className={styles.headerContainer} src={HEADER} alt='Header' />
+      
+      <div className={styles.headerContainer}>
+        <Image 
+          src={HEADER}
+          alt='Header'
+          fill/>
+      </div>
 
 
       <section className={styles.cardsContainer}>
 
         <Header text="09 DE JUNHO DE 2023" />
 
+        cards aqui
+
 
       </section>
+
+      <ImageBanner variant={1}/>
+
+      <Footer />
+
     </div>
   )
 }

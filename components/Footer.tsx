@@ -3,10 +3,10 @@ import { BsTelephone, BsInstagram } from 'react-icons/bs'
 import { HiOutlineMailOpen } from 'react-icons/hi';
 
 import styles from '../styles/components/Footer.module.css';
-import logoPET from '../assets/logoPET.png';
-import logoUfes from '../assets/logoUfes.png';
-import logoLAR from '../assets/logoLAR.png';
-import topquinho from '../assets/baloon.png';
+import logoPET from '../assets/general logos/logoPET.png';
+import logoUfes from '../assets/general logos/logoUfes.png';
+import logoLAR from '../assets/general logos/logoLAR.png';
+import mascot from '../assets/topcom logos/baloonWhiteBackground.svg'
 
 interface FooterProps {
 
@@ -39,8 +39,11 @@ export function Footer({}:FooterProps){
 
         <footer className={styles.bottomFooter}>
 
-          <div className={styles.topqui}>
-            <Image className={styles.top} src={topquinho} alt="Mascote do Topcom 20 gigante" />
+          <div className={styles.mascotContainer}>
+            <Image 
+              className={styles.mascot}
+              src={mascot} 
+              alt="Mascote do Topcom 20"/>
           </div>
             
           <div className={styles.anotations}>
@@ -59,8 +62,8 @@ export function Footer({}:FooterProps){
               <div>
                 <h3>FALE CONOSCO</h3>
                 <div className={styles.contactIcons}>
-                  <HiOutlineMailOpen size={70} />
-                  <BsInstagram  size={70} />
+                  <a href="mailto:petengcomp@inf.ufes.br" target="_blank"><HiOutlineMailOpen /></a>
+                  <a href="https://www.instagram.com/petengcomp/" target="_blank"><BsInstagram /></a>
                 </div>
               </div>
             </div>
