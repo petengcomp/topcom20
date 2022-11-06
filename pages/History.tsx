@@ -6,6 +6,8 @@ import { Header } from "../components/Header";
 import { TopcomHistoryBox } from "../components/TopcomHistoryBox";
 import {balloons} from '../imports/balloons';
 import {logos} from '../imports/logos';
+import { Footer } from "../components/Footer";
+import topcom20 from '../assets/topcom20.png';
 
 export default function History(){
   return (
@@ -205,6 +207,12 @@ export default function History(){
                               />
           </div>
       </div>
+
+      <div className={styles.logoDiv}>
+        <Image src={topcom20} alt="Balão topcom 20" className={styles.logo} />
+      </div>  
+
+      <Footer/>
       
     </div>
   )
