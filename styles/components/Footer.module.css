@@ -1,0 +1,108 @@
+.footer {
+    margin-top: 10.5rem;
+}
+
+.footer h2 {
+    color: var(--quinquernary);
+    font-size: 3.128125rem; 
+}
+
+.patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 44.1875rem; /* temporário */
+}
+
+.organization {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15.875rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.67625rem;
+
+    margin-top: 4.375rem;
+}
+
+
+.organizationImage {
+    width: 13.6875rem; 
+    height: 10.4375rem;
+}
+
+.logo {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.bottomFooter {
+    display: flex;
+    gap: 10.125rem;
+
+    background: black;
+}
+
+.topqui {
+    width: 35rem;
+    height: 25.6875rem; 
+}
+
+.top {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.anotations {
+    margin-top: 5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10.125rem;
+
+    margin-bottom: 9rem;
+
+    font-size: 1.5rem;
+}
+
+.contact h3 {
+    margin-bottom: 1.5rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+}
+
+.contactIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.anotations > p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #7E7A72;
+}
