@@ -38,6 +38,7 @@ export default function History(){
                               description="Apesar de não ter sido um evento de grande porte, marcou o início da periodicidade do torneio, tornando-se um evento anual."
                               balloonPosition="right"
                               balloonImage={balloons[2]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom4"
                               />
             <TopcomHistoryBox title="Topcom 6"
                               ano={[2008]} 
@@ -51,6 +52,7 @@ export default function History(){
                               em Estocolmo na Suécia. Nunca uma equipe da UFES havia se classificado para as finais mundiais!"
                               balloonPosition="right"
                               balloonImage={balloons[4]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom6"
                               />
             <TopcomHistoryBox title="Topcom 8"
                               ano={[2010]}
@@ -62,6 +64,7 @@ export default function History(){
                               destacando o Espírito Santo com bons resultados entre as melhores equipes do Brasil."
                               balloonPosition="right"
                               balloonImage={balloons[6]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom8"
                               />
             <TopcomHistoryBox title="Topcom 10"
                               ano={[2012]}
@@ -73,6 +76,7 @@ export default function History(){
                               Joinville-SC (2010) e Goiânia-GO (2011 e 2012). As equipes ficaram em 15º, 23º e 30º lugar respectivamente."
                               balloonPosition="right"
                               balloonImage={balloons[8]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom10"
                               />
             <TopcomHistoryBox title="Topcom 12"
                               ano={[2014]}
@@ -92,6 +96,7 @@ export default function History(){
                               equipe Triplex do Lula também da UFES em 3º Lugar."
                               balloonPosition="right"
                               balloonImage={balloons[12]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom14"
                               />
             <TopcomHistoryBox title="Topcom 16"
                               ano={[2018]} 
@@ -101,6 +106,7 @@ export default function History(){
                               seguido pelo 'Read Alert' e o 3º lugar foi da equipe 'Vida que segfault', todos da Ufes Vitoria."
                               balloonPosition="right"
                               balloonImage={balloons[14]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom16"
                               />
             <TopcomHistoryBox title="Topcom 18"
                               ano={[2020, 2021]}
@@ -111,6 +117,7 @@ export default function History(){
                               todos da Ufes Vitoria."
                               balloonPosition="right"
                               balloonImage={balloons[16]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom18"
                               />
             <div className={styles.fillDiv}/>
           </div>
@@ -128,6 +135,7 @@ export default function History(){
                               vencedora na primeira fase de Maratona de Programação."
                               balloonPosition="left"
                               balloonImage={balloons[1]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom3"
                               />
             <TopcomHistoryBox title="Topcom 5"
                               ano={[2007]}
@@ -139,6 +147,7 @@ export default function History(){
                               melhor resultado de uma equipe capixaba até então."
                               balloonPosition="left"
                               balloonImage={balloons[3]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom5"
                               />
             <TopcomHistoryBox title="Topcom 7"
                               ano={[2009]}
@@ -150,6 +159,7 @@ export default function History(){
                               estado em uma posição de destaque no âmbito nacional de programação de computadores."
                               balloonPosition="left"
                               balloonImage={balloons[5]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom7"
                               />
             <TopcomHistoryBox title="Topcom 9"
                               ano={[2011]} 
@@ -160,6 +170,7 @@ export default function History(){
                               Uma das equipes ficau em 23º lugar, colocando o Espírito Santo entre as melhores equipes da maratona nacional."
                               balloonPosition="left"
                               balloonImage={balloons[7]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom9"
                               />
             <TopcomHistoryBox title="Topcom 11"
                               ano={[2013]} 
@@ -171,6 +182,7 @@ export default function History(){
                               os primeiros colocadas não puderem ser matriculados na Maratona."
                               balloonPosition="left"
                               balloonImage={balloons[9]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom11"
                               />
             <TopcomHistoryBox title="Topcom 13"
                               ano={[2015]}
@@ -180,6 +192,7 @@ export default function History(){
                               em terceiro Lugar equipe TLE da UFES Campus São Mateus."
                               balloonPosition="left"
                               balloonImage={balloons[11]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom13"
                               />
             <TopcomHistoryBox title="Topcom 15"
                               ano={[2017]}
@@ -189,6 +202,7 @@ export default function History(){
                               E o 3º lugar foi da equipe Francamente, também da UFES Vitoria."
                               balloonPosition="left"
                               balloonImage={balloons[13]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom15"
                               />
             <TopcomHistoryBox title="Topcom 17"
                               ano={[2019]}
@@ -198,6 +212,7 @@ export default function History(){
                               seguida de 'Vida que segfault' e 'Commit no Mastes'. Mais uma vez, o top 3 de equipes eram da Ufes Goiabeiras!"
                               balloonPosition="left"
                               balloonImage={balloons[15]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom17"
                               />
             <TopcomHistoryBox title="Topcom 19"
                               ano={[2022]}
@@ -208,7 +223,9 @@ export default function History(){
                               lugar,  TopCão em segundo e O Pythaon em terceiro, sendo esta última formada por calouros."
                               balloonPosition="left"
                               balloonImage={balloons[17]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom19"
                               />
+                              
           </div>
       </div>
 
