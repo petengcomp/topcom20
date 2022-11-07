@@ -46,7 +46,6 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    width: 20rem;
 }
 
 .priceBox p {
@@ -110,4 +109,24 @@
 
 .saoMatheusInfo span {
     font-weight: bold;
+}
+
+
+/*========= RESPONSIVE =========*/
+
+@media (max-width: 1500px) {
+    .mainInformationContainer:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map {
+        height: 20rem;
+    }
+
+    .priceBox {
+        align-items: center;
+        justify-content: center;
+    }
 }
