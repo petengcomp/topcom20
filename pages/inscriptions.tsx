@@ -7,13 +7,17 @@ import bodyImage2 from '../assets/bodyImage2.png'
 import mapaCT13 from '../assets/mapaCT13.png';
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import ImageBanner from "../components/ImageBanner";
 
 export default function Inscriptions() {
   return (
     <div>
       <Navbar fromParentSelected={2} />
       
-      <Image className={styles.bodyImageContainer} src={bodyImage1} alt='Primeira imagem de corpo do site' />
+      <Image 
+        className={styles.bodyImageContainer}
+        src={bodyImage1}
+        alt='Primeira imagem de corpo do site' />
 
       <Header text="INSCRIÇÃO" />
 
@@ -80,7 +84,7 @@ export default function Inscriptions() {
 
       </div>
 
-      <Image className={styles.bodyImageContainer} src={bodyImage2} alt='Segunda imagem de corpo do site' />
+      <ImageBanner variant={1}/>
 
       <Footer />
 
