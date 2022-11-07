@@ -4,21 +4,20 @@
 
 .footer h2 {
     color: var(--quinquernary);
-    font-size: 3.128125rem; 
+    font-size: 25pt; 
 }
 
 .patrocinadores {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-bottom: 44.1875rem; /* temporário */
 }
 
 .organization {
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 15.875rem;
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
 
@@ -52,37 +51,41 @@
 
 .bottomFooter {
     display: flex;
-    gap: 10.125rem;
-
-    background: black;
+    height: 15rem;
+    background: var(--sextiary);
+    overflow: hidden;
 }
 
-.topqui {
-    width: 35rem;
-    height: 25.6875rem; 
+.mascotContainer {
+    position: relative;
+    top: -3rem;
+    left: -2rem;
 }
 
-.top {
-    width: auto;
-    max-width: 100%;
-    object-fit: contain;
+.mascot{
+    height: 30rem;
 }
 
 .anotations {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    color: var(--quinquernary)
+}
+
+.anotations p {
+    font-size: 8pt;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
-    gap: 10.125rem;
-
-    margin-bottom: 9rem;
-
-    font-size: 1.5rem;
+    gap: 6rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 12pt;
 }
 
 .contact h3 {
+    color: var(--quinquernary);
     margin-bottom: 1.5rem;
 }
 
@@ -93,12 +96,14 @@
 }
 
 .contactIcons {
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     align-items: center;
     justify-content: center;
-
-    gap: 1rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 40pt;
+    gap: 5px;
+    color: var(--quinquernary)
 }
 
 .anotations > p {

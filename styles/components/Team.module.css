@@ -2,32 +2,36 @@
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    max-width: 250px;
-    max-height: 110px;
-    width: 250px;
+    min-width: 15rem;
+    flex-grow: 1;
+    flex-basis: 0;
+
     height: 110px;
     border-style: solid;
     border-width: 1px;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: .2s;
+    opacity: 1;
 }
 
-.teamBlack:hover {
-    background-color: #141413da;
-}
-
-.teamWhite:hover {
-    background-color: #fef3dec5;
+.team:hover {
+    opacity: .7;
+    cursor: pointer;
+    transform: translateY(-10px);
 }
 
 .teamBlack {
-    background-color: #21201E;
-    color: #FEF3DE;
-    border-color: #FEF3DE;
+    color: var(--quinquernary);
+    border-color: var(--quinquernary);
 }
 
 .teamWhite {
-    background-color: #FEF3DE;
-    color: #21201E;
-    border-color: #FEF3DE;
+    background-color: var(--quinquernary);
+    color: var(--quaternary);
+    border-color: var(--quinquernary);
 }
 
 .teamName {
