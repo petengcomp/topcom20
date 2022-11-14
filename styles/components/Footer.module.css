@@ -1,5 +1,6 @@
 .footer {
-    margin-top: 10.5rem;
+    height: 20rem;
+    padding-top: 5rem;
 }
 
 .footer h2 {
@@ -7,11 +8,27 @@
     font-size: 25pt; 
 }
 
-.patrocinadores {
+.sponsorImg{
+    width: 15rem;
+}
+
+.sponsorContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 44.1875rem; /* temporário */
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.sponsorContainer h2 {
+    margin-bottom: 2rem;
+}
+
+.sponsorLogosContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .organization {
@@ -20,11 +37,8 @@
     margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
-
 }
 
 .logos {
@@ -34,13 +48,16 @@
     justify-content: space-between;
     gap: 1.67625rem;
 
-    margin-top: 4.375rem;
+    margin-top: 4rem;
 }
 
 
 .organizationImage {
-    width: 13.6875rem; 
-    height: 10.4375rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem; 
+    height: 7rem;
 }
 
 .logo {
@@ -107,7 +124,6 @@
 }
 
 .anotations > p {
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    text-transform: uppercase;
     color: #7E7A72;
 }

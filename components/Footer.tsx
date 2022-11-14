@@ -8,17 +8,35 @@ import logoUfes from '../assets/general logos/logoUfes.png';
 import logoLAR from '../assets/general logos/logoLAR.png';
 import mascot from '../assets/topcom logos/baloonWhiteBackground.svg'
 
-interface FooterProps {
-
-}
-
-export function Footer({}:FooterProps){
+export function Footer(){
 
   return (
     <div className={styles.footer}>
-        <div className={styles.patrocinadores}>
+        <div className={styles.sponsorContainer}>
           <h2>PATROCINADORES</h2>
-          {/* logos patrocinadores */}
+
+          <div className={styles.sponsorLogosContainer}>
+            <div className={styles.sponsorImg}>
+              <Image 
+                src={logoPET}
+                layout="responsive"
+                alt="Logo do patrocinador" />
+            </div>
+
+            <div className={styles.sponsorImg}>
+              <Image 
+                src={logoPET}
+                layout="responsive"
+                alt="Logo do patrocinador" />
+            </div>
+
+            <div className={styles.sponsorImg}>
+              <Image 
+                src={logoPET}
+                layout="responsive"
+                alt="Logo do patrocinador" />
+            </div>
+          </div>
         </div>
         
         <div className={styles.organization}>
