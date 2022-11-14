@@ -166,6 +166,10 @@ export default function Home() {
         </form>
       </div>
 
+      <div className={styles.mapContainer}>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1432.609919407377!2d-40.30672575358298!3d-20.273095363306044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa91fe2e972579dc6!2sCT%20IX%20-%20Departamento%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1667597583900!5m2!1spt-BR!2sbr" loading="lazy" ></iframe>
+      </div>
+
       <ImageBanner variant={2}/>
 
       <Footer />
