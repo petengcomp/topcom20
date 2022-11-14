@@ -145,6 +145,29 @@ export default function Home() {
 
       <ImageBanner variant={1}/>
 
+      <div className={styles.contactFormContainer}>
+        <h1>CONTATO</h1>
+
+        <div className={styles.disclaimer}>
+          <FiInfo />
+          <p>Esta seção de contato pode ser usada por equipes de universidades externas à UFES Goiabeiras, para realização da inscrição.</p>
+        </div>
+
+        <form>
+          <div>
+            <label>NOME COMPLETO<input type='text' /></label>
+
+            <label>ASSUNTO<input type='text'/></label>
+
+            <label>EMAIL<input type='email'/></label>
+          </div>
+
+          <label>MENSAGEM<textarea /></label>
+        </form>
+      </div>
+
+      <ImageBanner variant={2}/>
+
       <Footer />
 
     </div>
