@@ -1,7 +1,6 @@
 .mainContainer {
   display: flex;
   flex-direction: column;
-  height: 3000px
 }
 
 .headerContainer {
@@ -11,5 +10,29 @@
 }
 
 .cardsContainer {
-  height: 1000px;
+  margin: 10rem auto; 
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  gap: 10rem;
+}
+
+.scheduleTableContainer h3{
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.scheduleTableContainer table{
+  width: 100%;
+  text-align: center;
+}
+
+.scheduleTableContainer table tr td:nth-child(2n){
+  text-align: right;
+}
+
+#highlight {
+  color: var(--primary);
+  font-weight: bold;
 }
