@@ -60,7 +60,6 @@ export default function Home() {
 
       <section className={styles.cardsContainer}>
 
-
         <InfoCard 
           title="Sobre"
           text={<p>O Topcom, <span>Torneio de Programação de Computadores</span>, promovido pelo PET Engenharia de Computação (UFES) proporciona aos estudantes de computação a oportunidade de demonstrar, compartilhar e aprimorar suas habilidades em solucionar problemas usando o computador. O torneio explora o trabalho em equipe sob pressão e estimula a criatividade. 
@@ -71,15 +70,13 @@ export default function Home() {
 
         <InfoCard
           title="Treinamento"
-          text={<p>O Torneio de Programação de Computadores utiliza o BOCA (BOCA Online Contest Administrator), que é um sistema/ferramenta de apoio a competições de programação desenvolvido para ser usado na Maratona de Programação da Sociedade Brasileira de Computação. 
-          <br/><br/>
-          O sistema é usado para que se faça o uso de submissão e correção automatica com finalidadede verificar e validar a consistência de um algoritmo através de vários casos teste. 
-          <br/><br/>
-          Faça seu cadastro e treine para a competição. Para mais informações, <a href="">clique aqui.</a></p>}
+          text={<p>O Torneio de Programação de Computadores utiliza o BOCA (BOCA Online Contest Administrator), que é um sistema/ferramenta de apoio a competições de programação desenvolvido para ser usado na Maratona de Programação da Sociedade Brasileira de Computação.
+            <br/><br/>
+            O sistema é usado para que se faça o uso de submissão e correção automatica com finalidadede verificar e validar a consistência de um algoritmo através de vários casos teste.
+            <br/><br/>
+            Faça seu cadastro e treine para a competição. Para mais informações, <a href="">clique aqui.</a></p>}
           icon={<FiCoffee/>}
         />
-
-        
 
         <InfoCard
           title="Regras"
@@ -103,6 +100,7 @@ export default function Home() {
             <div className={styles.scheduleTableContainer}>
               <h3>SÁBADO (XX/XX)</h3>
               <table>
+                <tbody>
                 <tr>
                   <td>09:00 - 10:30</td>
                   <td>ABERTURA</td>
@@ -123,6 +121,7 @@ export default function Home() {
                   <td>19:00</td>
                   <td>ENCERRAMENTO E PREMIAÇÃO</td>
                 </tr>
+                </tbody>
               </table>
             </div>
           }

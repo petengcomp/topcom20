@@ -15,7 +15,7 @@ export function InfoCard({
   return (
     <div className={styles.cardContainer}>
       <h2>{title}</h2>
-      <p>{text}</p>
+      {text}
       <div className={styles.iconContainer}>
         {icon}
       </div>
