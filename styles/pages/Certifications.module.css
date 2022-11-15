@@ -1,11 +1,15 @@
 .body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 
 .bodyImageContainer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.body div form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
