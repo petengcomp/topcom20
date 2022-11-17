@@ -74,15 +74,15 @@ export default function Home() {
             <br/><br/>
             O sistema é usado para que se faça o uso de submissão e correção automatica com finalidadede verificar e validar a consistência de um algoritmo através de vários casos teste.
             <br/><br/>
-            Faça seu cadastro e treine para a competição. Para mais informações, <a href="">clique aqui.</a></p>}
+            Faça seu cadastro e treine para a competição. Para mais informações, <a href="https://docs.google.com/document/d/114FB6FWeHduOHanp5BjpdFMJgl3OJatS/edit?usp=sharing&ouid=106111004774429997076&rtpof=true&sd=true" target="_blank">clique aqui.</a></p>}
           icon={<FiCoffee/>}
         />
 
         <InfoCard
           title="Regras"
-          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!. 
+          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="https://docs.google.com/document/d/13HJ7f0bYCMy7GZkKDx1xvTM3lpv7bTL_u6MqL0tpG-Y/edit?usp=sharing" target="_blank">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!. 
           <br/><br/>
-          Para mais informações, <a href="">clique aqui.</a></p>}
+          Para mais informações, <a href="https://docs.google.com/document/d/1O-PKpxT9AJcO5TFSoio3Q9aqBTYtjOth/edit?usp=sharing&ouid=106111004774429997076&rtpof=true&sd=true" target="_blank">clique aqui.</a></p>}
           icon={<FiBook />}
         />
 
@@ -90,7 +90,7 @@ export default function Home() {
           title="Premiação"
           text={<p>Para incentivar as equipes, a organização do Topcom oferecerá troféus e uma premiação para a equipe vencedora do Espírito Santo: 1 assinatura da Alura para cada um dos 3 integrantes da equipe vencedora.
           <br/><br/>
-          Para mais detalhes sobre a premiação, visite o <a href="">regulamento.</a></p>}
+          Para mais detalhes sobre a premiação, visite o <a href="https://docs.google.com/document/d/13HJ7f0bYCMy7GZkKDx1xvTM3lpv7bTL_u6MqL0tpG-Y/edit?usp=sharing" target="_blank">regulamento.</a></p>}
           icon={<FiGift />}
         />
         
@@ -132,7 +132,7 @@ export default function Home() {
           title="PET"
           text={<p>O PET Engenharia de Computação realiza o TOPCOM há 25 anos. Além disso, realizamos diversas outras atividades de pesquisa, ensino e extensão. 
           <br/><br/>
-          Conheça mais um pouco do nosso trabalho pelo link <a href="http://pet.inf.ufes.br">http://pet.inf.ufes.br</a></p>}
+          Conheça mais um pouco do nosso trabalho pelo link <a href="http://pet.inf.ufes.br" target="_blank">http://pet.inf.ufes.br</a></p>}
           icon={
             <div>
               <Image src={petLogo} alt="pet logo" layout="responsive"/>
