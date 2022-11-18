@@ -1,31 +1,33 @@
 .buttonBox {
-    font-size: 62.5%; /* 1rem = 10px*/
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
-    font-size: 1em;
-    /* identical to box height */
+    font-weight: bold;
+    font-size: 10pt;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #21201e;
+    color: var(--septiary);
 
-    margin: 0;
-    background: #fef3de;
+    background: var(--quinquernary);
     border: none;
-    border-radius: 13px;
+    border-radius: 8px;
 
     padding: 1rem 2.2rem;
-    width: fit-content;
+    position: relative;
+    
+    cursor: pointer;
+    transition: .2s;
+}
+
+.line {
+    position: absolute;
+    margin-left: -1.5rem;
+    margin-top: -1.3rem;
+    width: 5rem;
 }
 
 .buttonBox:hover {
     transform: scale(1.1);
-    transition-duration: 0.2s;
 }
 
 .buttonBox:active {
     transform: scale(1);
-    transition-duration: 0.1s;
 }
