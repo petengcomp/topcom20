@@ -1,0 +1,25 @@
+.marathonBox {
+    display: flex;
+    background-color: #FEF3DE;
+    min-height: 25vh;
+    width: 20vw;
+    max-width: 280px;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.marathonBox h3 {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background-color: #FE592D;
+    color: #FEF3DE;
+    margin-bottom: 2vh;
+}
+
+.marathonTeams {
+    margin: auto 0;
+    width: 100%;
+}
