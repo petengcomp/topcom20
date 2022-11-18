@@ -43,13 +43,19 @@ export function Footer(){
             <h2>REALIZAÇÃO</h2>
             <div className={styles.logos}>
                 <div className={styles.organizationImage}>
-                  <Image className={styles.logo} src={logoPET} alt="Logo do PET Eng Comp" />
+                  <a href="https://pet.inf.ufes.br" target="_blank">
+                    <Image className={styles.logo} src={logoPET} alt="Logo do PET Eng Comp" />
+                  </a>
                 </div>
                 <div className={styles.organizationImage}>
+                  <a href="https://ufes.br" target="_blank">
                   <Image className={styles.logo} src={logoUfes} alt="Logo da ufes" />
+                  </a>
                 </div>
                 <div className={styles.organizationImage}>
+                  <a href="https://lar.inf.ufes.br" target="_blank">
                   <Image className={styles.logo} src={logoLAR} alt="Logo do LAR" />
+                  </a>
                 </div>
             </div>
         </div>
