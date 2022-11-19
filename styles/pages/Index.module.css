@@ -4,9 +4,13 @@
 }
 
 .headerContainer {
-  position: relative;
-  height: 65vh;
+  height: 65vh;  
+  width: 100%;
   overflow: hidden;
+  background-image: url("../../assets/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cardsContainer {
@@ -15,6 +19,47 @@
   display: grid;
   grid-template-columns: 1fr 1fr;  
   gap: 10rem;
+}
+
+@media (max-width: 1100px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerContainer {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardsContainer div{
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .cardsContainer div div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .cardsContainer div div div {
+    height: 2rem;
+    margin-left: 80%;
+  }
+
+  .scheduleTableContainer table tbody tr td:nth-child(2n+1){
+    width: 40%;
+  }
+
+  .scheduleTableContainer table tbody tr td:nth-child(2n){
+    font-size: 10pt;
+  }
+
+  .scheduleTableContainer table table tr td {
+    margin: 5px 0;
+  }
 }
 
 .scheduleTableContainer h3{
@@ -48,9 +93,22 @@
   font-size: 12pt;
   color: gray;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   gap:5px;
   font-style: italic;
-  margin: 2rem 0;
+  margin: 2rem auto;
+}
+
+.disclaimer p {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .infoIcon {
+    height: 100%;
+  }
 }
 
 .contactFormContainer h1 {
@@ -67,6 +125,30 @@
 
 .contactFormContainer form div {
   display: flex;
+}
+
+@media (max-width: 1100px){
+  .contactFormContainer form div {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  
+  .contactFormContainer form div label,
+  .contactFormContainer form div label input {
+    width: 100%;
+  }  
+
+  .contactFormContainer form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contactFormContainer h1 {
+    margin-left: 1rem;
+  }
 }
 
 .contactFormContainer form label {
@@ -100,6 +182,21 @@
   padding: 1rem;
   color: var(--quinquernary);
   resize: none;
+}
+
+
+@media (max-width: 1100px){
+  .contactFormContainer form label {
+    width: 100%;
+  }
+  
+  .contactFormContainer form label textarea {
+    width: 100%;
+  }
+
+  #textAreaContainer {
+    padding-left: 1rem;
+  }
 }
 
 .mapContainer iframe {

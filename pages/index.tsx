@@ -47,10 +47,10 @@ export default function Home() {
 
       
       <div className={styles.headerContainer}>
-        <Image 
+        {/* <Image 
           src={HEADER}
-          alt='Header'
-          fill/>
+          alt='Looney tunes banner topcom 20'
+          layout='responsive'/> */}
       </div>
 
 
@@ -97,7 +97,7 @@ export default function Home() {
         <InfoCard
           title="Programação"
           text={
-            <div className={styles.scheduleTableContainer}>
+            <section className={styles.scheduleTableContainer}>
               <h3>SÁBADO (XX/XX)</h3>
               <table>
                 <tbody>
@@ -123,7 +123,7 @@ export default function Home() {
                 </tr>
                 </tbody>
               </table>
-            </div>
+            </section>
           }
           icon={<FiClock/>}
         />
@@ -148,7 +148,7 @@ export default function Home() {
         <h1>CONTATO</h1>
 
         <div className={styles.disclaimer}>
-          <FiInfo />
+          <div className={styles.infoIcon}><FiInfo/></div>
           <p>Esta seção de contato pode ser usada por equipes de universidades externas à UFES Goiabeiras, para realização da inscrição.</p>
         </div>
 
@@ -161,7 +161,7 @@ export default function Home() {
             <label>EMAIL<input type='email'/></label>
           </div>
 
-          <label>MENSAGEM<textarea /></label>
+          <label id={styles.textAreaContainer}>MENSAGEM<textarea /></label>
         </form>
       </div>
 

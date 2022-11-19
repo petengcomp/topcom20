@@ -31,6 +31,17 @@
     gap: 2rem;
 }
 
+@media (max-width: 1100px) {
+    .sponsorLogosContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsorImg {
+        margin: 1rem 0;
+    }
+}
+
 .organization {
     width: 50%;
     margin: 0 auto;
@@ -43,12 +54,21 @@
 
 .logos {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 1.67625rem;
 
     margin-top: 4rem;
+}
+
+@media (max-width: 1100px) {
+    .logos {
+        flex-direction: column;
+    }
+
+    .organizationImage {
+        margin: 1rem 0;
+    }
 }
 
 
@@ -73,10 +93,30 @@
     overflow: hidden;
 }
 
+
 .mascotContainer {
     position: relative;
     top: -3rem;
     left: -2rem;
+}
+
+@media (max-width: 1100px) {
+    .bottomFooter {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .mascotContainer {
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mascot {
+        width: 80%;
+    }
 }
 
 .mascot{
@@ -94,11 +134,26 @@
 
 .contact {
     display: flex;
-    flex-direction: row;
     gap: 6rem;
     margin-left: 5rem;
     margin-bottom: 2rem;
     font-size: 12pt;
+}
+
+@media (max-width: 1100px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    #credits {
+        width: 60%;
+        margin: 7rem auto;
+        text-align: center;
+    }
+
+    .contactInfo {
+        margin: 1rem 0;
+    }
 }
 
 .contact h3 {

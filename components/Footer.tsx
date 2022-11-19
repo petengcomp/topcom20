@@ -91,7 +91,7 @@ export function Footer(){
                 </div>
               </div>
             </div>
-            <p>Created by PET Engenharia da Computação - 2023 - All rights reserved</p>
+            <p id={styles.credits}>Created by PET Engenharia da Computação ・ 2023 ・ All rights reserved</p>
           </div>
             
         </footer>

@@ -8,7 +8,7 @@
 
 .headerContainer:before,
 .headerContainer:after {
-    background-color: #FEF3DE;
+    background-color: var(--quinquernary);
     content: "";
     display: inline-block;
     height: 1px;
@@ -25,4 +25,10 @@
 .headerContainer:after {
     left: 0.5em;
     margin-right: -50%;
+}
+
+@media (max-width: 400px) {
+    .headerContainer {
+        transform: scale(.8);
+    }
 }

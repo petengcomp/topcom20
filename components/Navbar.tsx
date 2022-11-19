@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react'
+import { FiMenu } from 'react-icons/fi';
 import styles from '../styles/components/Navbar.module.css'
 
 interface NavBarProps {
@@ -10,6 +11,7 @@ export function Navbar({fromParentSelected}:NavBarProps){
 
   const [ selected, setSelected ] = useState<number>(fromParentSelected);
   const [ scroll, setScroll ] = useState<number>(0);
+  const [ menuIsCollapsed, setMenuIsCollapsed ] = useState<boolean>(false);
 
   useEffect(()=>{
     if (typeof(window)!='undefined'){
@@ -18,7 +20,19 @@ export function Navbar({fromParentSelected}:NavBarProps){
   },[])
 
   return (
-    <ul className={styles.navbarContainer} style={scroll>100?{borderBottom: '1px solid var(--quinquernary)'}:{}}>
+    <ul 
+      className={styles.navbarContainer} 
+      style={scroll>100?{borderBottom: '1px solid var(--quinquernary)'}:{}}
+      id={menuIsCollapsed?styles.collapsed:""}
+      >
+
+      <div
+        className={styles.hamburger}
+        onClick={()=>setMenuIsCollapsed(!menuIsCollapsed)}>
+        
+          <FiMenu />
+      </div>
+
       <Link href={'/'}><li id={selected==1?styles.selected:""} onClick={()=>setSelected(1)}>INÍCIO</li></Link>
       <Link href={'/inscriptions'}><li id={selected==2?styles.selected:""} onClick={()=>setSelected(2)}>INSCRIÇÃO</li></Link>
       <Link href={'/certifications'}><li id={selected==3?styles.selected:""} onClick={()=>setSelected(3)}>CERTIFICADOS</li></Link>
