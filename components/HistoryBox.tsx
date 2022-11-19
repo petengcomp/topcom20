@@ -1,7 +1,7 @@
 import { link } from 'fs';
 import Image, { StaticImageData } from 'next/image';
 import styles from '../styles/components/TopcomHistoryBox.module.css';
-interface TopcomHistoryBoxProps {
+interface HistoryBoxProps {
     title: string
     ano: number[]
     description: string
@@ -10,7 +10,7 @@ interface TopcomHistoryBoxProps {
     balloonImage: StaticImageData
     link ?: string
 }
-    export function TopcomHistoryBox({ title, ano, description, image, balloonPosition, balloonImage, link }: TopcomHistoryBoxProps) {
+    export function HistoryBox({ title, ano, description, image, balloonPosition, balloonImage, link }: HistoryBoxProps) {
         let anoString = "";
         ano.forEach((ano, index) => {
             if (index === 0) {
