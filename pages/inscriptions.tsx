@@ -55,9 +55,9 @@ export default function Inscriptions() {
           </div>
 
           <div className={styles.localization}>
-            <div className={styles.map}><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1432.609919407377!2d-40.30672575358298!3d-20.273095363306044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa91fe2e972579dc6!2sCT%20IX%20-%20Departamento%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1667597583900!5m2!1spt-BR!2sbr" width="400" height="330" loading="lazy" ></iframe></div>
+            <div className={styles.map}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6606892372859!2d-40.30667627080492!3d-20.273645499150764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8194c7bd39a3f%3A0x7d7dfca0a8c05acc!2sCentro%20Tecnol%C3%B3gico%2013%20-%20PPGI!5e0!3m2!1spt-BR!2sbr!4v1669160039004!5m2!1spt-BR!2sbr" width="400" height="330" loading="lazy"></iframe></div>
             <div className={styles.mapDescription}>
-              <p>CENTRO TECNOLÓGICO 9 - SEGUNDO ANDAR - LABGRAD 3 - LABORATÓRIO DE INFORMÁTICA</p>
+              <p>CENTRO TECNOLÓGICO 13 - SEGUNDO ANDAR - SALA 18 - PET ENGENHARIA DA COMPUTAÇÃO</p>
             </div>
           </div>
         </div>
