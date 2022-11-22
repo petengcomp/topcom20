@@ -76,11 +76,11 @@ export function Footer(){
                 <h3>TELEFONES</h3>
                 <div className={styles.contactInfo}>
                   <BsTelephone />
-                  <p>(27) 3335-2139</p>
+                  <p>(27) 4009-2144</p>
                 </div>
                 <div className={styles.contactInfo}>
                   <BsTelephone />
-                  <p>(27) 4009-2139</p>
+                  <p>(27) 4009-2222</p>
                 </div>
               </div>
               <div>
