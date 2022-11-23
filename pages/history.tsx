@@ -2,7 +2,7 @@ import styles from '../styles/pages/History.module.css';
 import Image from 'next/image';
 
 import { Navbar } from "../components/Navbar";
-import { TopcomHistoryBox } from "../components/TopcomHistoryBox";
+import { HistoryBox } from "../components/HistoryBox";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
@@ -24,7 +24,7 @@ export default function History(){
 
       <div className={styles.contentRow}>
           <div className={styles.contentColumn}>
-            <TopcomHistoryBox title="Topcom 1 e Topcom 2"
+            <HistoryBox title="Topcom 1 e Topcom 2"
                               ano={[1997, 1999]} 
                               description="Participaram 10 equipes formadas por alunos dos cursos de Engenharia e/ou Ciências da Computação. 
                               As linguagens de programação permitidas eram C, Pascal e Modula-2. 
@@ -32,14 +32,15 @@ export default function History(){
                               balloonPosition="right"
                               balloonImage={balloons[0]}
                               />
-            <TopcomHistoryBox title="Topcom 4"
+            <HistoryBox title="Topcom 4"
                               image={logos[1]}
                               ano={[2005]} 
                               description="Apesar de não ter sido um evento de grande porte, marcou o início da periodicidade do torneio, tornando-se um evento anual."
                               balloonPosition="right"
                               balloonImage={balloons[2]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom4"
                               />
-            <TopcomHistoryBox title="Topcom 6"
+            <HistoryBox title="Topcom 6"
                               ano={[2008]} 
                               image={logos[3]}
                               description="Contou com a participação de 10 equipes da UFES e 2 da UVV. 
@@ -51,8 +52,9 @@ export default function History(){
                               em Estocolmo na Suécia. Nunca uma equipe da UFES havia se classificado para as finais mundiais!"
                               balloonPosition="right"
                               balloonImage={balloons[4]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom6"
                               />
-            <TopcomHistoryBox title="Topcom 8"
+            <HistoryBox title="Topcom 8"
                               ano={[2010]}
                               image={logos[5]}
                               description="Em 2010 foram 26 equipes inscritas (recorde de participantes). 
@@ -62,8 +64,9 @@ export default function History(){
                               destacando o Espírito Santo com bons resultados entre as melhores equipes do Brasil."
                               balloonPosition="right"
                               balloonImage={balloons[6]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom8"
                               />
-            <TopcomHistoryBox title="Topcom 10"
+            <HistoryBox title="Topcom 10"
                               ano={[2012]}
                               image={logos[7]}
                               description="O Topcom 10, assim como em 2010 e 2011, tiveram 26 equipes inscritas. 
@@ -73,8 +76,9 @@ export default function History(){
                               Joinville-SC (2010) e Goiânia-GO (2011 e 2012). As equipes ficaram em 15º, 23º e 30º lugar respectivamente."
                               balloonPosition="right"
                               balloonImage={balloons[8]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom10"
                               />
-            <TopcomHistoryBox title="Topcom 12"
+            <HistoryBox title="Topcom 12"
                               ano={[2014]}
                               description="Contou novamente com o patrocínio da VIXTeam, além do novo apoio da XPD, empresa relativamente nova no ramo 
                               capixaba de tecnologia. Nessa edição participaram 24 equipes, e novamente uma equipe formada por alunos do ensino médio 
@@ -83,7 +87,7 @@ export default function History(){
                               balloonPosition="right"
                               balloonImage={balloons[10]}
                               />
-            <TopcomHistoryBox title="Topcom 14"
+            <HistoryBox title="Topcom 14"
                               ano={[2016]}
                               image={logos[10]}
                               description="O Topcom 14 contou com o patrocínio da VIXTeam e da Resultate. 
@@ -92,8 +96,9 @@ export default function History(){
                               equipe Triplex do Lula também da UFES em 3º Lugar."
                               balloonPosition="right"
                               balloonImage={balloons[12]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom14"
                               />
-            <TopcomHistoryBox title="Topcom 16"
+            <HistoryBox title="Topcom 16"
                               ano={[2018]} 
                               image={logos[12]}
                               description="O Topcom 16 contou com o patrocínio da Resultate, Wine e Seeds. Assim como na edição anterior, 
@@ -101,8 +106,9 @@ export default function History(){
                               seguido pelo 'Read Alert' e o 3º lugar foi da equipe 'Vida que segfault', todos da Ufes Vitoria."
                               balloonPosition="right"
                               balloonImage={balloons[14]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom16"
                               />
-            <TopcomHistoryBox title="Topcom 18"
+            <HistoryBox title="Topcom 18"
                               ano={[2020, 2021]}
                               image={logos[14]}
                               description="O Topcom 18 contou com o patrocínio da Prosperi e da Inflor. Sendo a primeira edição online do evento, 
@@ -111,13 +117,14 @@ export default function History(){
                               todos da Ufes Vitoria."
                               balloonPosition="right"
                               balloonImage={balloons[16]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom18"
                               />
             <div className={styles.fillDiv}/>
           </div>
           <div className={styles.line}/>
           <div className={styles.contentColumn}>
             <div className={styles.fillDiv}/>
-            <TopcomHistoryBox title="Topcom 3"
+            <HistoryBox title="Topcom 3"
                               ano={[2004]} 
                               image={logos[0]}
                               description="Obteve proporções bem maiores que as edições anteriores, contando com o patrocínio de diversas instituições e empresas, além do apoio da SBC. 
@@ -128,8 +135,9 @@ export default function History(){
                               vencedora na primeira fase de Maratona de Programação."
                               balloonPosition="left"
                               balloonImage={balloons[1]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom3"
                               />
-            <TopcomHistoryBox title="Topcom 5"
+            <HistoryBox title="Topcom 5"
                               ano={[2007]}
                               image={logos[2]}
                               description="Contando com o patrocínio da FACITEC e o apoio do grupo Suporte (DI-UFES), essa edição obteve o maior número de 
@@ -139,8 +147,9 @@ export default function History(){
                               melhor resultado de uma equipe capixaba até então."
                               balloonPosition="left"
                               balloonImage={balloons[3]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom5"
                               />
-            <TopcomHistoryBox title="Topcom 7"
+            <HistoryBox title="Topcom 7"
                               ano={[2009]}
                               image={logos[4]}
                               description="As quatro primeiras equipes foram inscritas para a fase regional da Maratona de Programação, 
@@ -150,8 +159,9 @@ export default function History(){
                               estado em uma posição de destaque no âmbito nacional de programação de computadores."
                               balloonPosition="left"
                               balloonImage={balloons[5]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom7"
                               />
-            <TopcomHistoryBox title="Topcom 9"
+            <HistoryBox title="Topcom 9"
                               ano={[2011]} 
                               image={logos[6]}
                               description="Em 2011, 26 equipes inscritas assim como em 2010. Também como no Topcom 8, a edição o evento 
@@ -160,8 +170,9 @@ export default function History(){
                               Uma das equipes ficau em 23º lugar, colocando o Espírito Santo entre as melhores equipes da maratona nacional."
                               balloonPosition="left"
                               balloonImage={balloons[7]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom9"
                               />
-            <TopcomHistoryBox title="Topcom 11"
+            <HistoryBox title="Topcom 11"
                               ano={[2013]} 
                               image={logos[8]}
                               description="Contou com o patrocínio da NEXA e da VIXTeam, ambas empresas do Espírito Santo no ramo de tecnologia. 
@@ -171,8 +182,9 @@ export default function History(){
                               os primeiros colocadas não puderem ser matriculados na Maratona."
                               balloonPosition="left"
                               balloonImage={balloons[9]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom11"
                               />
-            <TopcomHistoryBox title="Topcom 13"
+            <HistoryBox title="Topcom 13"
                               ano={[2015]}
                               image={logos[9]}
                               description="O Topcom 13 contou com o patrocinio da Mogai, VIXTeam e Resultate. Foram 26 equipes no total. 
@@ -180,8 +192,9 @@ export default function History(){
                               em terceiro Lugar equipe TLE da UFES Campus São Mateus."
                               balloonPosition="left"
                               balloonImage={balloons[11]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom13"
                               />
-            <TopcomHistoryBox title="Topcom 15"
+            <HistoryBox title="Topcom 15"
                               ano={[2017]}
                               image={logos[11]}
                               description="Essa edição bateu recode! Contando com o patrocínio da PicPay, Resultate, Vixteam e Primelan, tiveram 34 equipes, 
@@ -189,8 +202,9 @@ export default function History(){
                               E o 3º lugar foi da equipe Francamente, também da UFES Vitoria."
                               balloonPosition="left"
                               balloonImage={balloons[13]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom15"
                               />
-            <TopcomHistoryBox title="Topcom 17"
+            <HistoryBox title="Topcom 17"
                               ano={[2019]}
                               image={logos[13]}
                               description="Essa edição do Topcom, o Topcom 17, teve o patrocínio da PagarMe, Conceptho e Seeds! 
@@ -198,8 +212,9 @@ export default function History(){
                               seguida de 'Vida que segfault' e 'Commit no Mastes'. Mais uma vez, o top 3 de equipes eram da Ufes Goiabeiras!"
                               balloonPosition="left"
                               balloonImage={balloons[15]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom17"
                               />
-            <TopcomHistoryBox title="Topcom 19"
+            <HistoryBox title="Topcom 19"
                               ano={[2022]}
                               image={logos[15]}
                               description="Na última edição, o Topcom seguiu quebrando recordes históricos, incluindo 62 equipes no formato online, 
@@ -208,7 +223,9 @@ export default function History(){
                               lugar,  TopCão em segundo e O Pythaon em terceiro, sendo esta última formada por calouros."
                               balloonPosition="left"
                               balloonImage={balloons[17]}
+                              link="https://www.topcom.pet.inf.ufes.br/edicoes/topcom19"
                               />
+                              
           </div>
       </div>
 

@@ -35,6 +35,7 @@
 .title{
     font-size: 2rem;
     font-weight: bold;
+    color: var(--quinquernary);
 }
 .year{
     font-size: 1.15rem;
@@ -44,6 +45,7 @@
     font-size: 1.15rem;
     font-weight: 500;
     padding-top: 20px;
+    color: var(--quinquernary);
 }
 .textRight{
     padding-right: 10vw;
@@ -56,7 +58,7 @@
 .line{
     height: 5px;
     width: 100%;
-    background-color: #F2F2F2;
+    background-color: var(--quinquernary);
 }
 .lineContainer{
     display: flex;
