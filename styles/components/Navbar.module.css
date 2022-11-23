@@ -21,8 +21,50 @@
   transition: .2s ease-in-out;
   border-bottom: 5px solid transparent;
   cursor: pointer;
+
+  transition: .5s;
 }
 
 #selected {
   border-bottom: 5px solid var(--primary);
+}
+
+.hamburger {
+  padding: 1rem 0;
+  font-size: 30pt;
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: var(--quaternary);
+}
+
+#collapsed {
+  overflow: hidden;
+  gap: 0;
+  padding-bottom: 0rem;
+}
+
+#collapsed li{
+  margin-top: -10rem;
+}
+
+
+@media (max-width: 900px){
+  .navbarContainer {
+    flex-direction: column;
+    gap: 1rem;
+    height: fit-content;
+    padding-bottom: 1rem;
+  }
+
+  .navbarContainer li {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .hamburger {
+    display: none;
+  }
 }

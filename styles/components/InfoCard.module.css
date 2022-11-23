@@ -1,0 +1,45 @@
+.cardContainer{
+  background-color: var(--septiary);
+  width: 27rem;
+  max-height: 40rem;
+  padding: 1rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardContainer h2 {
+  font-size: 17pt;
+  border-bottom: 7px solid var(--primary);
+  padding: 0 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cardContainer p {
+  width: 90%;
+  font-size:11pt;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.iconContainer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 28pt;
+  margin-top: 5rem;
+  color: var(--primary);
+}
+
+.iconContainer div {
+  height: fit-content;
+  width: 2rem;
+}
+
+.cardContainer p span, .cardContainer p a{
+  color: var(--primary)
+}

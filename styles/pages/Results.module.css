@@ -1,0 +1,60 @@
+.bodyImageContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.podiumContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.podium {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5vw;
+    height: 70vh;
+}
+
+.resultsButton {
+    align-self: center;
+    color: #21201E;
+    font-weight: bold;
+    background-color: #FEF3DE;
+
+    padding: 2vh 5vw;
+    margin-bottom: 12vh;
+    border-radius: 7px;
+
+    box-shadow: inset #FEF3DE .3vw .3vw, inset #FEF3DE -10vw -.5vw, inset #FEF3DE -1vw -1vw, inset #E2D6CA .6vw .6vw;
+}
+
+.marathonContainer {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.marathonTeams {
+    color: #FE592D;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.marathonTeams p {
+    width: 80%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.marathonTeams p + p {
+    border-top: 5px solid #FFE4B1;
+}
