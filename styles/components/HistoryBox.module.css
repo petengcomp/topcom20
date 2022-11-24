@@ -1,0 +1,125 @@
+.boxRight {
+    margin-right: -42px;
+    width: 35vw;
+    height: 70vh;
+}
+
+.boxLeft {
+    margin-left: -42px;
+    width: 35vw;
+    height: 70vh;
+}
+
+.topcomLogo {
+    display: flex;
+    width: calc(100% - 40px);
+    height: 140px;
+    justify-content: left;
+    margin-bottom: -30px;
+    margin-right: auto;
+}
+
+.topcomLogoRight {
+    display: flex;
+    width: calc(100% - 40px);
+    height: 140px;
+    justify-content: right;
+    margin-bottom: -30px;
+    margin-left: auto;
+}
+
+.topcomLogo img {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    object-fit: fill;
+}
+
+.topcomLogoRight img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    justify-self: right;
+}
+
+.topcomLogoRight a {
+    width: 80%;
+}
+
+.topcomLogo a {
+    width: 80%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--quinquernary);
+}
+
+.year {
+    font-size: 1.15rem;
+    color: var(--primary);
+}
+
+.description {
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding-top: 20px;
+    color: var(--quinquernary);
+}
+
+.textRight {
+    padding-right: 10vw;
+    text-align: start;
+}
+
+.textLeft {
+    padding-left: 10vw;
+    text-align: end;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: var(--quinquernary);
+}
+
+.lineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgOnRight {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--quinquernary);
+    }
+
+    .year {
+        font-size: 1rem;
+        color: var(--primary);
+    }
+
+    .description {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 20px;
+        color: var(--quinquernary);
+    }
+
+    .topcomLogo {
+        margin-bottom: -50px;
+    }
+
+    .topcomLogoRight {
+        margin-bottom: -50px;
+    }
+
+}
