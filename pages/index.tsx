@@ -12,6 +12,7 @@ import { Header } from '../components/Header';
 import ImageBanner from '../components/ImageBanner';
 import { Footer } from '../components/Footer';
 import { InfoCard } from '../components/InfoCard';
+import ScrollUpButton from '../components/ScrollUpButton';
 
 export default function Home() {
 
@@ -57,6 +58,8 @@ export default function Home() {
       <Header text="09 DE JUNHO DE 2023" />
 
       <ImageBanner variant={2}/>
+
+      <ScrollUpButton />
 
       <section className={styles.cardsContainer}>
 
