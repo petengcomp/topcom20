@@ -77,7 +77,7 @@ export default function Home() {
             <br/><br/>
             O sistema é usado para que se faça o uso de submissão e correção automatica com finalidadede verificar e validar a consistência de um algoritmo através de vários casos teste.
             <br/><br/>
-            Faça seu cadastro e treine para a competição. Para mais informações, <a href="https://docs.google.com/document/d/114FB6FWeHduOHanp5BjpdFMJgl3OJatS/edit?usp=sharing&ouid=106111004774429997076&rtpof=true&sd=true" target="_blank">clique aqui.</a></p>}
+            Faça seu cadastro e treine para a competição. Para mais informações, <a href="http://boca.pet.inf.ufes.br/boca/" target="_blank">clique aqui.</a></p>}
           icon={<FiCoffee/>}
         />
 
