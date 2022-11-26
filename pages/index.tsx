@@ -91,7 +91,7 @@ export default function Home() {
 
         <InfoCard 
           title="Premiação"
-          text={<p>Para incentivar as equipes, a organização do Topcom oferecerá troféus e uma premiação para a equipe vencedora do Espírito Santo: 1 assinatura da Alura para cada um dos 3 integrantes da equipe vencedora.
+          text={<p>Para incentivar as equipes, a organização do Topcom oferecerá a inscrição para a fase regional da Maratona de Programação às três equipes melhores classificadas da competição. Caso não ocorra a fase regional da Maratona, a premiação será algum periférico de mesmo valor da inscrição da maratona.
           <br/><br/>
           Para mais detalhes sobre a premiação, visite o <a href="https://docs.google.com/document/d/13HJ7f0bYCMy7GZkKDx1xvTM3lpv7bTL_u6MqL0tpG-Y/edit?usp=sharing" target="_blank">regulamento.</a></p>}
           icon={<FiGift />}
