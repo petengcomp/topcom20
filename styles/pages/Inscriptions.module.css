@@ -129,4 +129,8 @@
         align-items: center;
         justify-content: center;
     }
+
+    .mainText {
+        width: max(25rem, 80%);
+    }
 }
