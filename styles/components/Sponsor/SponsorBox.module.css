@@ -1,0 +1,31 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container p {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+.image_container {
+    width: 37.5rem; 
+    height: 11.875rem;
+}
+
+.image_container img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+@media (max-width: 800px) {
+    .image_container {
+        width: 25rem;
+        height: 8rem;
+    }
+}
