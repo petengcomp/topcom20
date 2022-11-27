@@ -8,6 +8,7 @@ import { Header } from "../components/Header"
 import { Navbar } from "../components/Navbar"
 import ImageBanner from "../components/ImageBanner"
 import { Button } from "../components/Button"
+import ScrollUpButton from "../components/ScrollUpButton"
 
 export default function Certifications() {
   const [ email, setEmail ] = useState<string>();
@@ -27,6 +28,8 @@ export default function Certifications() {
         alt="Imagem de corpo do site"
       />
       <Header text="CERTIFICADOS" />
+
+      <ScrollUpButton />
 
       <div className={styles.formsContainer}>
         <form onSubmit={requestCertificate}>

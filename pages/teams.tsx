@@ -6,6 +6,7 @@ import styles from "../styles/pages/Teams.module.css"
 import bodyImage1 from '../assets/bodyImage1.png'
 import ImageBanner from '../components/ImageBanner';
 import { Footer } from '../components/Footer';
+import ScrollUpButton from '../components/ScrollUpButton';
 
 export default function Teams() {
   return (
@@ -15,6 +16,7 @@ export default function Teams() {
 
       <Header text="EQUIPES CONFIRMADAS" />
 
+      <ScrollUpButton />
 
       <div className={styles.teamsContainer}>
         <Team key={0} index={0} teamName="Manjava" teamParticipants={["Luiz", "Matheus", "Arthur"]} />

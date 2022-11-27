@@ -13,6 +13,7 @@ import topcom20 from "../assets/topcom logos/topcom20.png"
 import { balloons } from '../imports/balloons';
 import { logos } from '../imports/logos';
 import ImageBanner from '../components/ImageBanner';
+import ScrollUpButton from '../components/ScrollUpButton';
 
 export default function History() {
   return (
@@ -22,6 +23,8 @@ export default function History() {
       <Image className={styles.bodyImageContainer} src={bodyImage1} alt='Imagem de corpo do site' />
 
       <Header text="NOSSA HISTÓRIA" />
+
+      <ScrollUpButton />
 
       <div className={styles.contentRow}>
         <div className={styles.contentColumn}>

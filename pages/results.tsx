@@ -13,6 +13,7 @@ import FirstPlace from '../assets/winner ballons/1-lugar.svg';
 import SecondPlace from '../assets/winner ballons/2-lugar.svg';
 import ThirdPlace from '../assets/winner ballons/3-lugar.svg';
 import { Button } from '../components/Button';
+import ScrollUpButton from '../components/ScrollUpButton';
 
 
 export default function Results() {
@@ -22,6 +23,8 @@ export default function Results() {
         <Image className={styles.bodyImageContainer} src={bodyImage1} alt='Imagem de corpo do site' />
 
         <Header text='GANHADORES' />
+
+        <ScrollUpButton />
 
         <div className={styles.podiumContainer}>
             <div className={styles.podium}>

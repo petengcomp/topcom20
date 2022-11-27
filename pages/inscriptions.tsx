@@ -8,6 +8,7 @@ import mapaCT13 from '../assets/mapaCT13.png';
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import ImageBanner from "../components/ImageBanner";
+import ScrollUpButton from "../components/ScrollUpButton";
 
 export default function Inscriptions() {
   return (
@@ -17,9 +18,12 @@ export default function Inscriptions() {
       <Image 
         className={styles.bodyImageContainer}
         src={bodyImage1}
-        alt='Primeira imagem de corpo do site' />
+        alt='Primeira imagem de corpo do site'
+      />
 
       <Header text="INSCRIÇÃO" />
+
+      <ScrollUpButton />
 
       <div className={styles.mainContainer}>
         <div className={styles.mainInformationContainer}>
