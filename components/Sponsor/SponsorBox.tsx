@@ -10,7 +10,7 @@ export function SponsorBox({imagePath, text, textColor}: SponsorBoxProps) {
 
     const parameterStyles = {
         p: {
-            color: {textColor}
+            color: textColor
         }
     }
 

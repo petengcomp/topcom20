@@ -12,11 +12,11 @@ export default function Sponsor(){
     <div>
       <Navbar fromParentSelected={8} />
 
+      <ImageBanner variant={2}/>
+
       <Header text="PATROCINADORES" />
       
       <ScrollUpButton />
-
-      <ImageBanner variant={2}/>
 
       <div className={styles.main_container}>
         <SponsorBox 
