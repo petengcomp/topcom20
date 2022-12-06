@@ -12,7 +12,8 @@ export function Footer(){
 
   return (
     <div className={styles.footer}>
-        <div className={styles.sponsorContainer}>
+      
+        {/* <div className={styles.sponsorContainer}>
           <h2>PATROCINADORES</h2>
 
           <div className={styles.sponsorLogosContainer}>
@@ -37,7 +38,7 @@ export function Footer(){
                 alt="Logo do patrocinador" />
             </div>
           </div>
-        </div>
+        </div> */}
         
         <div className={styles.organization}>
             <h2>REALIZAÇÃO</h2>

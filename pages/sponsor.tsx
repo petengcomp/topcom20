@@ -21,20 +21,26 @@ export default function Sponsor(){
       <div className={styles.main_container}>
         <SponsorBox 
           imagePath="./logoTeste.png"
-          text="COTA DIAMANTE"
-          textColor="#48DEFF"
+          text="COTA MASTER"
+          textColor="#A600C1"
         />
 
         <SponsorBox 
           imagePath="./logoTeste.png"
-          text="COTA OURO"
-          textColor="#FBFF48"
+          text="COTA SENIOR"
+          textColor="#FFD800"
         />
 
         <SponsorBox 
           imagePath="./logoTeste.png"
-          text="COTA PRATA"
-          textColor="#CACACA"
+          text="COTA PLENO"
+          textColor="#F2463B"
+        />
+
+        <SponsorBox 
+          imagePath="./logoTeste.png"
+          text="COTA JUNIOR"
+          textColor="#B73B1B"
         />
       </div>
       

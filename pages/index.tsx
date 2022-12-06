@@ -83,9 +83,9 @@ export default function Home() {
 
         <InfoCard
           title="Regras"
-          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="https://docs.google.com/document/d/13HJ7f0bYCMy7GZkKDx1xvTM3lpv7bTL_u6MqL0tpG-Y/edit?usp=sharing" target="_blank">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!. 
+          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="./regulamento.pdf" target="_blank">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!. 
           <br/><br/>
-          Para mais informações, <a href="https://docs.google.com/document/d/1O-PKpxT9AJcO5TFSoio3Q9aqBTYtjOth/edit?usp=sharing&ouid=106111004774429997076&rtpof=true&sd=true" target="_blank">clique aqui.</a></p>}
+          Para mais informações, <a href="./instrucoes.pdf" target="_blank">clique aqui.</a></p>}
           icon={<FiBook />}
         />
 
@@ -93,7 +93,7 @@ export default function Home() {
           title="Premiação"
           text={<p>Para incentivar as equipes, a organização do Topcom oferecerá a inscrição para a fase regional da Maratona de Programação às três equipes melhores classificadas da competição. Caso não ocorra a fase regional da Maratona, a premiação será algum periférico de mesmo valor da inscrição da maratona.
           <br/><br/>
-          Para mais detalhes sobre a premiação, visite o <a href="https://docs.google.com/document/d/13HJ7f0bYCMy7GZkKDx1xvTM3lpv7bTL_u6MqL0tpG-Y/edit?usp=sharing" target="_blank">regulamento.</a></p>}
+          Para mais detalhes sobre a premiação, visite o <a href="./regulamento.pdf" target="_blank">regulamento.</a></p>}
           icon={<FiGift />}
         />
         
@@ -101,7 +101,7 @@ export default function Home() {
           title="Programação"
           text={
             <section className={styles.scheduleTableContainer}>
-              <h3>SÁBADO (XX/XX)</h3>
+              <h3>SÁBADO (03/06)</h3>
               <table>
                 <tbody>
                 <tr>
