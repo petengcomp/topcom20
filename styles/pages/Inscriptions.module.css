@@ -25,9 +25,9 @@
 }
 
 
-.textContainer {
+/* .textContainer {
     font-size:  1.3125rem;
-}
+} */
 
 .prices {
     display: flex;
@@ -121,16 +121,39 @@
         align-items: center;
     }
 
+    .mainText {
+        /* width: max(25rem, 80%); */
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+    .prices {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .localization {
+        width: 100%;
+    }
+    
     .map {
         height: 20rem;
     }
-
+    
     .priceBox {
         align-items: center;
         justify-content: center;
     }
+}
 
-    .mainText {
-        width: max(25rem, 80%);
+@media (max-width: 610px) {
+    .saoMatheusInfo {
+        width: 100%;
+    }
+
+    .mainContainer {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
