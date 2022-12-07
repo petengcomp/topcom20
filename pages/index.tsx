@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
 
-      <Header text="09 DE JUNHO DE 2023" />
+      <Header text="03 DE JUNHO DE 2023" />
 
       <ImageBanner variant={2}/>
 
