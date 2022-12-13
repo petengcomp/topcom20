@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto 0;
+}
+
+.topcomLogo {
+    padding-bottom: 5vh;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--quinquernary);
+}
+
+.year {
+    font-size: 1.15rem;
+    color: var(--primary);
+}
+
+.description {
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding-top: 20px;
+    color: var(--quinquernary);
+}
