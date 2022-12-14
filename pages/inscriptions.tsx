@@ -29,7 +29,7 @@ export default function Inscriptions() {
         <div className={styles.mainInformationContainer}>
           <div className={styles.mainText}>
             <p>
-              O cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computaçã.<br></br><br></br>
+              O cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
 
               Os horários disponíveis de atendimento no PET são os seguintes:<br></br><br></br>
 
@@ -51,11 +51,11 @@ export default function Inscriptions() {
               <span>TAXA DE INSCRIÇÃO</span>
               <span>(por equipe)</span>
             </div>
-            <div className={styles.priceBox}>
+            {/* <div className={styles.priceBox}>
               <p>R$ 30,00</p>
               <span>TAXA DE INSCRIÇÃO</span>
               <span>(por participante)</span>
-            </div>
+            </div> */}
           </div>
 
           <div className={styles.localization}>

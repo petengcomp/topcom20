@@ -31,13 +31,17 @@
 
 .prices {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    align-items: center;
+    justify-content: center;
 
     width: 30rem;
 
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 
-    gap: 3.5625rem; 
+    /* gap: 3.5625rem;  */
 }
 
 .priceBox {
