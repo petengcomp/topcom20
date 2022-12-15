@@ -16,6 +16,7 @@
     justify-content: space-around;
     padding: 0 5vw;
     height: 70vh;
+    gap: 2vw;
 }
 
 .resultsButton {
@@ -57,4 +58,19 @@
 
 .marathonTeams p + p {
     border-top: 5px solid #FFE4B1;
+}
+
+@media (max-width: 767px) {
+    .podium {
+        flex-direction: column;
+        height: 100%;
+        gap: 5vh;
+    }
+}
+
+@media (max-width: 1010px) {
+    .marathonContainer {
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
 }

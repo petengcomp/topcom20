@@ -3,6 +3,7 @@
     background-color: #FEF3DE;
     min-height: 25vh;
     width: 20vw;
+    min-width: 220px;
     max-width: 280px;
     padding: 10px 0;
     flex-direction: column;
@@ -22,4 +23,12 @@
 .marathonTeams {
     margin: auto 0;
     width: 100%;
+}
+
+@media (max-width: 1010px) {
+    .marathonBox {
+        width: 100%;
+        align-self: center;
+        margin: 3vh 0;
+    }    
 }
