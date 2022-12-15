@@ -73,7 +73,7 @@ export function Footer(){
             
           <div className={styles.anotations}>
             <div className={styles.contact}>
-              <div>
+              {/* <div>
                 <h3>TELEFONES</h3>
                 <div className={styles.contactInfo}>
                   <BsTelephone />
@@ -83,7 +83,7 @@ export function Footer(){
                   <BsTelephone />
                   <p>(27) 4009-2222</p>
                 </div>
-              </div>
+              </div> */}
               <div>
                 <h3>FALE CONOSCO</h3>
                 <div className={styles.contactIcons}>
