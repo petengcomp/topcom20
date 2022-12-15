@@ -47,7 +47,7 @@ export default function Results() {
 
         <ImageBanner variant={2}/>
 
-        <Header text='VENCEDORES INSCRIÇÃO PARA MARATONA NACIONAL' />
+        <Header text='INSCRIÇÃO MARATONA' />
 
         <div className={styles.marathonContainer}>
             <MarathonBox university='UFES GOIABEIRAS'
