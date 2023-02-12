@@ -31,7 +31,7 @@ export default function Inscriptions() {
             <p>
               O cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
 
-              Os horários disponíveis de atendimento no PET são os seguintes:<br></br><br></br>
+              As inscrições vão do período de <span>14/04/23 até 05/05/2023.</span> Os horários disponíveis de atendimento no PET são os seguintes:<br></br><br></br>
 
               <span>Seg à Sex, de 14:00 às 18:00</span><br></br><br></br>
 
