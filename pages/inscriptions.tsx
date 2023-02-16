@@ -47,7 +47,7 @@ export default function Inscriptions() {
 
           <div className={styles.prices}>
             <div className={styles.priceBox}>
-              <p>R$ 90,00</p>
+              <p>R$ 75,00</p>
               <span>TAXA DE INSCRIÇÃO</span>
               <span>(por equipe)</span>
             </div>
