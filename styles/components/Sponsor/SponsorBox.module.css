@@ -18,5 +18,6 @@
 }
 
 .image_container img {
-    max-width: 70%;
+    width: 20rem;
+    height: auto;
 }
