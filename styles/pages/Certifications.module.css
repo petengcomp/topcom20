@@ -18,6 +18,12 @@
   max-width: 90%;
 }
 
+.formsContainer form p {
+  margin-top: 2rem;
+  opacity: .3 ;
+  font-style: italic;
+}
+
 .buttonBox {
   font-size: 62.5%; /* 1rem = 10px*/
   font-family: "Roboto";

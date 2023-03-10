@@ -44,6 +44,7 @@ export default function Certifications() {
           />
           <Button text="SOLICITAR CERTIFICADO" />
 
+          <p>Esta página é destinada <u>APENAS</u> aos participantes do TOPCOM 20.</p>
 
         </form>
       </div>
