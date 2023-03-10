@@ -37,10 +37,11 @@
 .teamName {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 12pt;
     margin: 0 0 10px;
 }
 
 .teamParticipant {
     text-align: center;
+    font-size: 8pt
 }
