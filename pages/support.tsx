@@ -5,42 +5,42 @@ import { Navbar } from "../components/Navbar";
 import ScrollUpButton from "../components/ScrollUpButton";
 import { SponsorBox } from "../components/Sponsor/SponsorBox";
 
-import styles from '../styles/pages/Sponsor.module.css'
+import styles from "../styles/pages/Sponsor.module.css";
 
-export default function Sponsor(){
+export default function Sponsor() {
   return (
     <div>
       <Navbar fromParentSelected={8} />
 
-      <ImageBanner variant={2}/>
+      <ImageBanner variant={2} />
 
-      <Header text="PATROCINADORES" />
-      
+      <Header text="APOIO" />
+
       <ScrollUpButton />
 
       <div className={styles.main_container}>
-        <SponsorBox 
-          imagePath="./wepipe.png"
+        <SponsorBox
+          imagePath="./wepipe.svg"
           text="COTA MASTER"
           textColor="#A600C1"
         />
 
-        <SponsorBox 
-          imagePath="./hack.png"
+        <SponsorBox
+          imagePath="./hack.svg"
           text="COTA MASTER"
           textColor="#A600C1"
         />
 
-        <SponsorBox 
-          imagePath="./inflor.png"
-          text="COTA SENIOR"
+        <SponsorBox
+          imagePath="./inflor.svg"
+          text="COTA SÊNIOR"
           textColor="#FFD800"
         />
       </div>
-      
+
       <ImageBanner variant={1} />
 
       <Footer />
     </div>
-  )
+  );
 }
