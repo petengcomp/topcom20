@@ -29,7 +29,7 @@ export default function Inscriptions() {
         <div className={styles.mainInformationContainer}>
           <div className={styles.mainText}>
             <p>
-              O cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
+              Para os estudantes da UFES Goiabeiras, o cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
 
               As inscrições vão do período de <span>14/04/23 até 05/05/2023.</span> Os horários disponíveis de atendimento no PET são os seguintes:<br></br><br></br>
 
@@ -68,7 +68,7 @@ export default function Inscriptions() {
 
 
         <div className={styles.saoMatheusInfo}>
-          <p><span>INFORME AOS PARTICIPANTES DA UFES SÃO MATEUS, UFES ALEGRE E OUTRAS UNIVERSIDADES</span></p><br />
+          <p><span>INFORME AOS ESTUDANTES DA UFES SÃO MATEUS, UFES ALEGRE E OUTRAS UNIVERSIDADES</span></p><br />
 
           <p>
             Para realizar a inscrição das equipes de fora da UFES Goiabeiras, o contato deve ser feito pelo formulário da seção de CONTATO da página principal.<br></br>
@@ -77,7 +77,7 @@ export default function Inscriptions() {
             <span>Nome completo:</span> Nome de um dos participantes<br />
             <span>Email:</span> Email válido de um dos participantes<br />
             <span>Assunto:</span> “[NOME DA EQUIPE] Cadastro [UNIVERSIDADE]”<br />
-            <span>Mensagem:</span> Nome completo dos participantes; coach se necessário; nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organizaçã<br /><br />
+            <span>Mensagem:</span> Nome completo dos participantes; email dos participantes; tamanho da camisa dos participantes; nome, email e tamanho da camisa do coach (se tiver); nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organização<br /><br />
 
 
             A taxa de inscrição se mantém a mesma. Nós responderemos o email com uma chave PIX única, para que a equipe, integralmente, realize o pagamento da taxa indicada.
