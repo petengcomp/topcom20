@@ -35,13 +35,9 @@ export default function Inscriptions() {
 
               <span>Seg à Sex, de 14:00 às 18:00</span><br></br><br></br>
 
-              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe. <br></br><br></br>
-
-              PAGUE SOMENTE AOS INTEGRANTES OFICIAIS DO PET<br></br><br></br>
+              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe (PIX, ou em espécie). <br></br><br></br>
               
-              Vale lembrar que o dinheiro dos competidores é direcionado para a compra de <span>brindes</span>, parte dos <span>prêmios</span> e outros <span>benefícios</span> para os participantes.<br></br><br></br>
-              
-              Aceitamos PIX e em espécie.
+              Vale lembrar que o dinheiro vai direto para os fornecedores dos <span>brindes</span>, parte dos <span>prêmios</span> e outros <span>benefícios</span> para os participantes.<br></br><br></br>
             </p>
           </div>
 
@@ -51,11 +47,6 @@ export default function Inscriptions() {
               <span>TAXA DE INSCRIÇÃO</span>
               <span>(por equipe)</span>
             </div>
-            {/* <div className={styles.priceBox}>
-              <p>R$ 30,00</p>
-              <span>TAXA DE INSCRIÇÃO</span>
-              <span>(por participante)</span>
-            </div> */}
           </div>
 
           <div className={styles.localization}>
@@ -80,7 +71,7 @@ export default function Inscriptions() {
             <span>Mensagem:</span> Nome completo dos participantes; email dos participantes; tamanho da camisa dos participantes; nome, email e tamanho da camisa do coach (se tiver); nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organização<br /><br />
 
 
-            A taxa de inscrição se mantém a mesma. Nós responderemos o email com uma chave PIX única, para que a equipe, integralmente, realize o pagamento da taxa indicada.
+            A taxa de inscrição se mantém a mesma. Responderemos o email com as instruções para pagamento da taxa de inscrição.<br></br>
           </p><br />
 
           <p>~ Equipe organizadora do TOPCOM20</p>

@@ -20,13 +20,19 @@ export default function Sponsor() {
 
       <div className={styles.main_container}>
         <SponsorBox
+          imagePath="./hack.svg"
+          text="COTA MASTER"
+          textColor="#A600C1"
+        />
+
+        <SponsorBox
           imagePath="./wepipe.svg"
           text="COTA MASTER"
           textColor="#A600C1"
         />
 
         <SponsorBox
-          imagePath="./hack.svg"
+          imagePath="./alura.svg"
           text="COTA MASTER"
           textColor="#A600C1"
         />
