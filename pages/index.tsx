@@ -13,26 +13,20 @@ import ImageBanner from '../components/ImageBanner';
 import { Footer } from '../components/Footer';
 import { InfoCard } from '../components/InfoCard';
 import ScrollUpButton from '../components/ScrollUpButton';
+import { Button } from "../components/Button";
 
 export default function Home() {
 
-  // const [emojiTitle, setEmojiTitle] = useState<string>('👨‍💻');
+  const [ subject, setSubject ] = useState("");
+  const [ message, setMessage ] = useState("")
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     if (emojiTitle === '👨‍💻') setEmojiTitle('🎈')
-  //     else if (emojiTitle === '🎈') setEmojiTitle('👩‍💻')
-  //     else setEmojiTitle('👨‍💻')
-  //   }, 1000)
-
-  //   return () => clearInterval(interval)
-
-  // }, [emojiTitle])
-
-
+  async function handleSubmit() {
+    window.open(`mailto:${process.env.NEXT_PUBLIC_EMAIL}
+      ?subject=${subject}
+      &body=${message}`, "_blank");
+  }
 
   return (
-
 
     <div className={styles.mainContainer}>
       <Head>
@@ -155,16 +149,11 @@ export default function Home() {
           <p>Esta seção de contato pode ser usada por equipes de universidades externas à UFES Goiabeiras, para realização da inscrição.</p>
         </div>
 
-        <form>
-          <div>
-            <label>NOME COMPLETO<input type='text' /></label>
+        <form onSubmit={(e)=>e.preventDefault()}>
+          <label>ASSUNTO<input type='text' value={subject} onChange={(e)=>setSubject(e.target.value)}/></label>
 
-            <label>ASSUNTO<input type='text'/></label>
-
-            <label>EMAIL<input type='email'/></label>
-          </div>
-
-          <label id={styles.textAreaContainer}>MENSAGEM<textarea /></label>
+          <label id={styles.textAreaContainer}>MENSAGEM<textarea value={message} onChange={(e)=>setMessage(e.target.value)}/></label>
+          <div onClick={handleSubmit}><Button text={"ENVIAR"} /></div>
         </form>
       </div>
 
