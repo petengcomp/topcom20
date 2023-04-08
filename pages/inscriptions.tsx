@@ -74,8 +74,6 @@ export default function Inscriptions() {
             Para realizar a inscrição das equipes de fora da UFES Goiabeiras, o contato deve ser feito pelo formulário da seção de CONTATO da página principal.<br></br>
 
             É necessário preencher o formulário com as informações indicadas a seguir:<br></br><br></br>
-            <span>Nome completo:</span> Nome de um dos participantes<br />
-            <span>Email:</span> Email válido de um dos participantes<br />
             <span>Assunto:</span> “[NOME DA EQUIPE] Cadastro [UNIVERSIDADE]”<br />
             <span>Mensagem:</span> Nome completo dos participantes; coach se necessário; nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organizaçã<br /><br />
 
