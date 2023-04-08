@@ -77,7 +77,7 @@ export default function Home() {
 
         <InfoCard
           title="Regras"
-          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="./regulamento.pdf" target="_blank">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!. 
+          text={<p>A competição segue os moldes da Maratona de Programação da SBC! É necessário que todos os participantes leiam o <a href="./regulamento.pdf" target="_blank">regulamento</a>. Nele consta informações sobre o ambiente computacional, assim como as liguagens aceitas e suas versões!
           <br/><br/>
           Para mais informações, <a href="./instrucoes.pdf" target="_blank">clique aqui.</a></p>}
           icon={<FiBook />}
@@ -85,7 +85,15 @@ export default function Home() {
 
         <InfoCard 
           title="Premiação"
-          text={<p>Para incentivar as equipes, a organização do Topcom oferecerá a inscrição para a fase regional da Maratona de Programação às três equipes melhores classificadas da competição. Caso não ocorra a fase regional da Maratona, a premiação será algum periférico de mesmo valor da inscrição da maratona.
+          text={<p>Para incentivar as equipes, a organização do Topcom oferecerá a inscrição para a fase regional da Maratona de Programação às três equipes melhores classificadas da competição (caso não ocorra a fase regional da Maratona, a premiação será algum periférico de mesmo valor da inscrição da maratona).
+          <br/><br/>
+          Além disso, os integrantes das três equipes melhores colocadas receberão, como segue: 
+          <br/><br/>
+          <b>1º lugar</b> - licença Alura Plus de 6 meses;
+          <br/><br/>
+          <b>2º lugar</b> - licença Alura Plus de 3 meses; 
+          <br/><br/>
+          <b>3º lugar</b> - licença Alura Plus de 1 mês.
           <br/><br/>
           Para mais detalhes sobre a premiação, visite o <a href="./regulamento.pdf" target="_blank">regulamento.</a></p>}
           icon={<FiGift />}
