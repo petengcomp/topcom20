@@ -87,7 +87,7 @@ export function Footer(){
               <div>
                 <h3>FALE CONOSCO</h3>
                 <div className={styles.contactIcons}>
-                  <a href="mailto:petengcomp@inf.ufes.br" target="_blank"><HiOutlineMailOpen /></a>
+                  <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`} target="_blank"><HiOutlineMailOpen /></a>
                   <a href="https://www.instagram.com/petengcomp/" target="_blank"><BsInstagram /></a>
                 </div>
               </div>
