@@ -35,9 +35,10 @@ export default function Inscriptions() {
 
               <span>Seg à Sex, de 14:00 às 18:00</span><br></br><br></br>
 
-              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe (PIX, ou em espécie). <br></br><br></br>
-              
               <strong>OBS:</strong> A organização do Topcom 20 explicita que o evento, por possuir natureza gratuita, oferece por meio de uma <span>taxa opcional</span> de R$25,00 por competidor, a aquisição de uma <span>camisa</span> estilizada da competição, com intuito de oferecer uma experiência <span>memorável e única.</span> O PET Eng Comp não recebe absolutamente nenhum retorno financeiro e reiteramos que tudo foi feito com muito zelo. A equipe espera que os participantes possam adquirir as camisas para guardar uma lembrança do evento.
+              <br></br><br></br>
+              
+              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe (PIX, ou em espécie). 
             </p>
           </div>
 
