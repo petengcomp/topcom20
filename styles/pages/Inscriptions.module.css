@@ -20,6 +20,10 @@
     text-justify: left;
 }
 
+.mainText p {
+    text-align: justify;
+}
+
 .mainInformationContainer span {
     color: var(--primary);
 }
