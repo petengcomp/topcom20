@@ -14,8 +14,8 @@ export default function Inscriptions() {
   return (
     <div>
       <Navbar fromParentSelected={2} />
-      
-      <Image 
+
+      <Image
         className={styles.bodyImageContainer}
         src={bodyImage1}
         alt='Primeira imagem de corpo do site'
@@ -37,8 +37,8 @@ export default function Inscriptions() {
 
               <strong>OBS:</strong> A organização do Topcom 20 explicita que o evento, por possuir natureza gratuita, oferece por meio de uma <span>taxa opcional</span> de R$25,00 por competidor, a aquisição de uma <span>camisa</span> estilizada da competição, com intuito de oferecer uma experiência <span>memorável e única.</span> O PET Eng Comp não recebe absolutamente nenhum retorno financeiro e reiteramos que tudo foi feito com muito zelo. A equipe espera que os participantes possam adquirir as camisas para guardar uma lembrança do evento.
               <br></br><br></br>
-              
-              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe (PIX, ou em espécie). 
+
+              O pagamento da taxa é realizado de forma <span>integral</span> e no momento do cadastro da equipe (PIX, ou em espécie).
             </p>
           </div>
 
@@ -62,14 +62,14 @@ export default function Inscriptions() {
           <p><span>INFORME AOS ESTUDANTES DA UFES SÃO MATEUS, UFES ALEGRE E OUTRAS UNIVERSIDADES</span></p><br />
 
           <p>
-            Para realizar a inscrição das equipes de fora da UFES Goiabeiras, o contato deve ser feito pelo formulário da seção de CONTATO da página principal.<br></br>
+            Para realizar a inscrição das equipes de fora da UFES Goiabeiras, o contato deve ser feito via email: <span>topcomufes@gmail.com</span><br></br>
 
-            É necessário preencher o formulário com as informações indicadas a seguir:<br></br><br></br>
+            No email, é necessário conter as seguintes informações:<br></br><br></br>
             <span>Assunto:</span> “[NOME DA EQUIPE] Cadastro [UNIVERSIDADE]”<br />
             <span>Mensagem:</span> Nome completo dos participantes; email dos participantes; tamanho da camisa dos participantes; nome, email e tamanho da camisa do coach (se tiver); nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organização<br /><br />
+            Deve ser anexado ao email uma foto de cada um dos membros da equipe (idealmente tirada de frente, com fundo neutro e sem muitos detalhes)<br></br><br></br>
 
-
-            A taxa de inscrição se mantém a mesma. Responderemos o email com as instruções para pagamento da taxa de inscrição.<br></br>
+            A taxa opcional se mantém a mesma. Responderemos o email com as instruções para pagamento.<br></br>
           </p><br />
 
           <p>~ Equipe organizadora do TOPCOM20</p>
@@ -77,7 +77,7 @@ export default function Inscriptions() {
 
       </div>
 
-      <ImageBanner variant={1}/>
+      <ImageBanner variant={1} />
 
       <Footer />
 

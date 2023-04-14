@@ -90,7 +90,7 @@
 
 .mapDescription p {
     text-align: center;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
 }
 
 .saoMatheusInfo {
@@ -103,6 +103,8 @@
 
     margin-top: 8.125rem;
     margin-bottom: 9.1875rem;
+
+    text-align: justify;
 }
 
 .saoMatheusInfo p:nth-child(1) {
@@ -144,11 +146,11 @@
     .localization {
         width: 100%;
     }
-    
+
     .map {
         height: 20rem;
     }
-    
+
     .priceBox {
         align-items: center;
         justify-content: center;
