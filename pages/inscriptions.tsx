@@ -5,6 +5,7 @@ import styles from '../styles/pages/Inscriptions.module.css';
 import bodyImage1 from '../assets/bodyImage1.png'
 import bodyImage2 from '../assets/bodyImage2.png'
 import mapaCT13 from '../assets/mapaCT13.png';
+import camisa from '../assets/camisa.png';
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import ImageBanner from "../components/ImageBanner";
@@ -46,6 +47,10 @@ export default function Inscriptions() {
             <div className={styles.priceBox}>
               <p>R$ 25,00</p>
               <span>(por competidor)</span>
+            </div>
+
+            <div className={styles.tshirtDiv}>
+              <Image className={styles.tshirt} src={camisa} alt="Camisa Topcom competidor" />
             </div>
           </div>
 
