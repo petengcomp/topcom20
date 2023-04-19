@@ -71,8 +71,9 @@ export default function Inscriptions() {
 
             No email, é necessário conter as seguintes informações:<br></br><br></br>
             <span>Assunto:</span> “[NOME DA EQUIPE] Cadastro [UNIVERSIDADE]”<br />
-            <span>Mensagem:</span> Nome completo dos participantes; email dos participantes; tamanho da camisa dos participantes; nome, email e tamanho da camisa do coach (se tiver); nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organização<br /><br />
-            Deve ser anexado ao email uma foto de cada um dos membros da equipe (idealmente tirada de frente, com fundo neutro e sem muitos detalhes)<br></br><br></br>
+            <span>Mensagem:</span> Nome completo dos participantes; email dos participantes; tamanho da camisa dos participantes; nome, email e tamanho da camisa do coach (se tiver); nome da universidade; cidade da universidade; nome de um desenho animado preferido da equipe; e qualquer outra informação que a equipe achar relevante repassar para a organização.<br /><br />
+            
+            {/* Deve ser anexado ao email uma foto de cada um dos membros da equipe (idealmente tirada de frente, com fundo neutro e sem muitos detalhes)<br></br><br></br> */}
 
             A taxa opcional se mantém a mesma. Responderemos o email com as instruções para pagamento.<br></br>
           </p><br />
