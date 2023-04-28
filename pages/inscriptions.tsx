@@ -30,7 +30,7 @@ export default function Inscriptions() {
         <div className={styles.mainInformationContainer}>
           <div className={styles.mainText}>
             <p>
-              Para os estudantes da UFES Goiabeiras, o cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com pelo menos um dos participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
+              Para os estudantes da UFES Goiabeiras, o cadastro na competição será realizado <span>ÚNICA</span> E <span>EXCLUSIVAMENTE</span> de maneira presencial, com todos os participantes da equipe na sala do PET Engenharia de Computação.<br></br><br></br>
 
               As inscrições vão do período de <span>14/04/23 até 05/05/2023.</span> Os horários disponíveis de atendimento no PET são os seguintes:<br></br><br></br>
 
