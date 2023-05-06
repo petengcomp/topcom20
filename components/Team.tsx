@@ -15,6 +15,11 @@ export function Team({ teamName, teamParticipants, index }: TeamProps) {
             <p className={styles.teamParticipant}>{teamParticipants[0]}</p>
             <p className={styles.teamParticipant}>{teamParticipants[1]}</p>
             <p className={styles.teamParticipant}>{teamParticipants[2]}</p>
+            <p className={styles.teamParticipant}>
+                {teamParticipants[3] ? 
+                    <>{teamParticipants[3]} <span style={{color: "var(--primary)"}}>(coach)</span></>
+                : ""}
+            </p>
         </div>
     )
 }
