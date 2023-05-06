@@ -38,7 +38,7 @@ export function Navbar({fromParentSelected}:NavBarProps){
       <Link href={'/history'}><li id={selected==4?styles.selected:""} onClick={()=>setSelected(4)}>HISTÓRICO</li></Link>
       {/* <Link href={'/certifications'}><li id={selected==3?styles.selected:""} onClick={()=>setSelected(3)}>CERTIFICADOS</li></Link> */}
       {/* <Link href={'/results'}><li id={selected==5?styles.selected:""} onClick={()=>setSelected(5)}>RESULTADOS</li></Link> */}
-      {/* <Link href={'/teams'}><li id={selected==6?styles.selected:""} onClick={()=>setSelected(6)}>EQUIPES</li></Link> */}
+      <Link href={'/teams'}><li id={selected==6?styles.selected:""} onClick={()=>setSelected(6)}>EQUIPES</li></Link>
       <Link href={'/support'}><li id={selected==7?styles.selected:""} onClick={()=>setSelected(7)}>APOIO</li></Link>
     </ul>
   )
