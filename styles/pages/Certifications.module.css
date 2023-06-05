@@ -1,0 +1,70 @@
+.bodyImageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.formsContainer {
+  margin-bottom: 10rem;
+}
+
+.formsContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formsContainer form input {
+  max-width: 90%;
+}
+
+.formsContainer form p {
+  margin-top: 2rem;
+  opacity: .3 ;
+  font-style: italic;
+}
+
+.buttonBox {
+  font-size: 62.5%; /* 1rem = 10px*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1em;
+  /* identical to box height */
+
+  color: #21201e;
+
+  margin: 0;
+  background: #fef3de;
+  border: none;
+  border-radius: 8px;
+
+  padding: 1rem 2.2rem;
+  width: fit-content;
+}
+
+.buttonBox:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.buttonBox:active {
+  transform: scale(1);
+  transition-duration: 0.1s;
+}
+
+.inputBox {
+  font-size: 11pt;
+  font-family: "Roboto";
+  font-weight: 900;
+
+  color: #21201e;
+
+  margin-bottom: 1rem;
+  background: var(--quinquernary);
+  border: none;
+  border-radius: 8px;
+
+  padding: 1em 1.5em;
+  width: 25rem;
+}

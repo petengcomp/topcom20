@@ -1,0 +1,14 @@
+.teamsContainer {
+    padding: 0 10vw 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    width: 80%;
+}
+
+.bodyImageContainer {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,193 @@
+.bodyImageContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.mainContainer {
+    margin-right: 6.875rem;
+    margin-left: 6.875rem;
+    color: var(--quinquernary);
+}
+
+.mainInformationContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.mainText {
+    width: 45rem;
+    text-justify: left;
+}
+
+.mainText p {
+    text-align: justify;
+}
+
+.mainInformationContainer span {
+    color: var(--primary);
+}
+
+
+/* .textContainer {
+    font-size:  1.3125rem;
+} */
+
+.prices {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30rem;
+
+    flex-direction: column;
+    gap: 3rem;
+
+
+    /* margin-top: 3rem; */
+
+    /* gap: 3.5625rem;  */
+}
+
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.priceBox p {
+    font-size: 4.5rem;
+    color: var(--quinquernary);
+}
+
+.tshirtDiv {
+    width: 16rem;
+    height: 16rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tshirt {
+    height: 100%;
+    width: auto;
+}
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--quinquernary);
+    color: var(--quaternary);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.map {
+    border: 7px solid var(--primary);
+    width: 100%;
+    height: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.mapDescription {
+    padding: 1rem;
+}
+
+.mapDescription p {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.saoMatheusInfo {
+    border: 1px solid var(--quinquernary);
+
+    padding-left: 3.375rem;
+    padding-right: 3.375rem;
+    padding-top: 1.3125rem;
+    padding-bottom: 1.3125rem;
+
+    margin-top: 8.125rem;
+    margin-bottom: 9.1875rem;
+
+    text-align: justify;
+}
+
+.saoMatheusInfo p:nth-child(1) {
+    text-align: center;
+}
+
+.saoMatheusInfo p:nth-child(5) {
+    font-style: italic;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 0.9375rem;
+}
+
+.saoMatheusInfo span {
+    font-weight: bold;
+}
+
+
+/*========= RESPONSIVE =========*/
+
+@media (max-width: 1500px) {
+    .mainInformationContainer:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainText {
+        /* width: max(25rem, 80%); */
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+    .prices {
+        width: 100%;
+        margin: 0 auto;
+
+        flex-direction: row;
+    }
+
+    .localization {
+        width: 100%;
+    }
+
+    .map {
+        height: 20rem;
+    }
+
+    .priceBox {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 610px) {
+    .saoMatheusInfo {
+        width: 100%;
+    }
+
+    .mainContainer {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+}

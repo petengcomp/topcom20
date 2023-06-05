@@ -1,0 +1,34 @@
+.buttonBox {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10pt;
+
+    color: var(--septiary);
+
+    background: var(--quinquernary);
+    border: none;
+    border-radius: 8px;
+
+    padding: 1rem 2.2rem;
+    position: relative;
+    
+    cursor: pointer;
+    transition: .2s;
+    width: fit-content;
+}
+
+.line {
+    position: absolute;
+    margin-left: -1.5rem;
+    margin-top: -1.3rem;
+    width: 5rem;
+}
+
+.buttonBox:hover {
+    transform: scale(1.1);
+}
+
+.buttonBox:active {
+    transform: scale(1);
+}
