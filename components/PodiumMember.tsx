@@ -5,9 +5,10 @@ interface podiumMemberProps {
     teamName: string
     teamParticipants: string[]
     image: StaticImageData
+    logo: StaticImageData
 }
 
-export function PodiumMember({teamName, teamParticipants, image}: podiumMemberProps) {
+export function PodiumMember({teamName, teamParticipants, image, logo}: podiumMemberProps) {
     return (
         <div className={styles.teamContainer}>
             <Image src={image} alt='Pódio Topcom' className={styles.podiumImage}/>
@@ -17,6 +18,7 @@ export function PodiumMember({teamName, teamParticipants, image}: podiumMemberPr
             <p className={styles.teamParticipant}>{teamParticipants[0]}</p>
             <p className={styles.teamParticipant}>{teamParticipants[1]}</p>
             <p className={styles.teamParticipant}>{teamParticipants[2]}</p>
+            <Image src={logo} alt='Logo Time' style={{margin: "2rem auto"}}/>
         </div>
     )
 }

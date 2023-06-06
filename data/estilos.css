@@ -1,0 +1,411 @@
+/* ==================== VARIABLES ==================== */
+:root {
+    --primary: #FE592D;
+    --secondary: #D92418;
+    --terciary: #FFD800;
+    --quaternary: #21201E;
+    --quinquernary: #FEF3DE;
+}
+
+/* ==================== LOGIN PAGE ==================== */
+div#popupnew {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -202px;
+    font-family: 'Raleway', sans-serif
+}
+
+div#normal {
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto
+}
+
+.loginContainer {
+    width: 25rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #21201E;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.loginContainer input[type='text'],
+.loginContainer input[type='password'] {
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    outline: none;
+    border-bottom: 4px solid #FE592D;
+    background-color: #21201E;
+    padding-bottom: 1px;
+    color: white;
+    text-align: center;
+    transition: .5s;
+}
+
+.loginContainer input:focus-visible {
+    border-bottom: 4px solid #D92418;
+}
+
+.loginContainer input::placeholder {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.loginContainer input[type='submit'] {
+    height: 2rem;
+    width: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FE592D;
+    border: none;
+    border-radius: 8px;
+    color: #FEF3DE;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 3rem 0;
+    transition: .5s;
+}
+
+.loginContainer input[type='submit']:hover {
+    background-color: #D92418;
+    box-shadow: 0px 5px #FEF3DE;
+}
+
+.loginContainer input:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px #FEF3DE;
+}
+
+.loginContainer img {
+    width: 70%;
+    margin-bottom: 5rem;
+}
+
+#loginTableContainer {
+    width: 50%;
+    margin: auto auto;
+}
+
+/* ==================== SYSTEM PAGE ==================== */
+.systemContestForm {
+    background-color: #21201E;
+}
+
+.systemContestForm center table {
+    color: white;
+    border: none;
+    padding-bottom: 2rem;
+}
+
+.systemContestForm center {
+    color: white;
+}
+
+/* ==================== RUN PAGE ==================== */
+.adminRunPageForm table {
+    background-color: #21201E;
+    border: none;
+}
+
+.adminRunPageForm table td {
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.adminRunPageForm table tr td a {
+    color: white;
+}
+
+/* ==================== SCORE TABLE ==================== */
+.allScoreTitle {
+    background: #21201E;
+}
+
+/* ==================== OPTIONS FORM ==================== */
+.allOptionsForm center table {
+    padding-top: 2rem;
+    border-radius: 8px;
+}
+
+/* ==================== HEADER NAVBAR ==================== */
+.allHeaderTable {
+    background-color: #21201E;
+    border-radius: 0;
+}
+
+.allHeaderTable td table {
+    border-radius: 0;
+}
+
+.allHeaderTable td {
+    background: transparent;
+    padding: 0 1rem;
+}
+
+/* ==================== MIX ==================== */
+.translucidTable {
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    background-color: rgba(33, 32, 30, .6);
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+#paragraph {
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+DIV.menu {
+    background-color: #e0e0d0;
+    layer-background-color: #e0e0d0
+}
+
+DIV.menudown {
+    background-color: #dfdfdf;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 2px solid #555555;
+    border-left: 1px solid #555555
+}
+
+DIV.fname {
+    background-color: #dfdfdf;
+    layer-background-color: #dfdfdf;
+    position: absolute;
+    visibility: hidden;
+    border: 0;
+    left: 0px;
+    top: 0px;
+    height: 19px;
+    z-index: 100;
+}
+
+DIV.dir {
+    background-color: #e0e0d0;
+    layer-background-color: #e0e0d0;
+    position: absolute;
+    visibility: hidden;
+    border: 0;
+    left: 0px;
+    top: 0px;
+    height: 19px;
+    z-index: 100;
+}
+
+A {
+    font-family: "Courier New", Courier, mono;
+    font-size: 12pt;
+    color: white;
+    font-weight: bold;
+}
+
+B {
+    color: white;
+}
+
+A.header {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt
+}
+
+A.menu {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    transition: .5s;
+}
+
+A.menu:hover {
+    color: #FE592D;
+}
+
+A.user {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt
+}
+
+A.user:hover {
+    font-weight: bolder
+}
+
+A.disabled {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-decoration: none;
+    color: #BFBFBF
+}
+
+A.form {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: #dfdfdf
+}
+
+BODY {
+    background-image: url("background1.png");
+    background-size: contain;
+
+    font-family: "Courier new", monospace;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #21201E
+}
+
+BODY.cline {
+    background-color: #000000;
+    color: #FFFFFF
+}
+
+TABLE {
+    font-family: "Courier New", Courier, mono;
+    font-size: 12pt;
+    margin: auto auto;
+    color: white;
+    border: none;
+    background-color: #21201E;
+    border-radius: 8px;
+}
+
+TD {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+TABLE.form {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt
+}
+
+FORM {
+    font-size: 12pt;
+}
+
+FORM.alt {
+    font-size: 12pt;
+    margin-top: 5px
+}
+
+FORM.fname {
+    font-size: 12pt;
+    margin: 0px
+}
+
+INPUT.fname {
+    font-family: "Courier New", Courier, mono;
+    font-size: 12pt;
+    border: 0;
+    background-color: #dfdfdf
+}
+
+FORM.dir {
+    font-size: 12pt;
+    margin: 0px
+}
+
+INPUT.dir {
+    font-family: "Courier New", Courier, mono;
+    font-size: 12pt;
+    border: 0;
+    background-color: #e0e0d0
+}
+
+input.checkbox {}
+
+INPUT {
+    font-size: 12pt;
+    border: 1px solid #555555
+}
+
+INPUT[type='submit'],
+INPUT[type='reset'] {
+    height: 2rem;
+    /* width: 6rem; */
+    padding: 5px 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FE592D;
+    border: none;
+    border-radius: 8px;
+    color: #FEF3DE;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 3rem 0;
+    transition: .5s;
+}
+
+INPUT[type='submit']:hover,
+INPUT[type='reset']:hover {
+    background-color: #D92418;
+    box-shadow: 0px 5px #FEF3DE;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px #FEF3DE;
+}
+
+INPUT.cline {
+    background-color: #000000;
+    font-family: "Courier new", monospace;
+    font-size: 12pt;
+    color: #FFFFFF;
+    border: 0
+}
+
+TEXTAREA {
+    border: 1px solid #555555
+}
+
+TEXTAREA.edit {
+    font-family: "Courier New", Courier, mono;
+    font-size: 10pt;
+    background-color: #EFEFEF
+}
+
+SELECT {
+    font-size: 12pt;
+}
+
+p.link a:hover {
+    background-color: #2B2E21;
+    ;
+    color: #fff;
+}
+
+p.link a:link span {
+    display: none;
+}
+
+p.link a:visited span {
+    display: none;
+}
+
+p.link a:hover span {
+    position: absolute;
+    margin: 15px 0px 0px 20px;
+    background-color: beige;
+    max-width: 220;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #C0C0C0;
+    font: normal 10px/12px verdana;
+    color: #000;
+    text-align: left;
+    display: block;
+}

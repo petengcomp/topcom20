@@ -37,7 +37,8 @@
     max-width: 90%;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
 }
 
 .marathonTeams {
