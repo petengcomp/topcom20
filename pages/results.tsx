@@ -12,6 +12,11 @@ import { MarathonBox } from '../components/MarathonBox';
 import FirstPlace from '../assets/winner ballons/1-lugar.svg';
 import SecondPlace from '../assets/winner ballons/2-lugar.svg';
 import ThirdPlace from '../assets/winner ballons/3-lugar.svg';
+
+import runtimeterror from '../assets/winner ballons/runtimeterror.png'
+import machineburning from '../assets/winner ballons/machineburning.png'
+import trycatchus from '../assets/winner ballons/trycatchus.png'
+
 import { Button } from '../components/Button';
 import ScrollUpButton from '../components/ScrollUpButton';
 
@@ -28,20 +33,23 @@ export default function Results() {
 
         <div className={styles.podiumContainer}>
             <div className={styles.podium}>
-            <PodiumMember teamName='Ganhador X'
-            teamParticipants={['Jose Fulano da Silva', 'Maria Ciclana da Penha', 'Josefino Arruda Alves']}
-            image={FirstPlace}/>
+            <PodiumMember teamName='Try Catch Us'
+            teamParticipants={['Filipe Gomes Arante de Souza', 'Christian Junji Litzinger State', 'Vinícius Moraes de Jesus']}
+            image={SecondPlace}
+            logo={trycatchus}/>
 
-            <PodiumMember teamName='Ganhador X'
-            teamParticipants={['Jose Fulano da Silva', 'Maria Ciclana da Penha', 'Josefino Arruda Alves']}
-            image={SecondPlace}/>
+            <PodiumMember teamName='Runtime Terror'
+            teamParticipants={['Addison Alves Viana', 'João Paulo Souza Ferrete', 'Junior Brandão']}
+            image={FirstPlace}
+            logo={runtimeterror}/>
 
-            <PodiumMember teamName='Ganhador X'
-            teamParticipants={['Jose Fulano da Silva', 'Maria Ciclana da Penha', 'Josefino Arruda Alves']}
-            image={ThirdPlace}/>
+            <PodiumMember teamName='Machine Burning'
+            teamParticipants={['Pedro Igor Gomes de Morais', 'Marlon Moratti do Amaral', 'Matheus Saick de Martin']}
+            image={ThirdPlace}
+            logo={machineburning}/>
             </div>
 
-            <a href='/scores/detailed.html' target="_blank"><Button text="PLACAR GERAL"/></a>
+            <a href='/scores/detailed.html' target="_blank" style={{marginTop: "10rem"}}><Button text="PLACAR GERAL"/></a>
         </div>
             
 
@@ -53,31 +61,18 @@ export default function Results() {
             <MarathonBox university='UFES GOIABEIRAS'
             teams={ 
             <div className={styles.marathonTeams}>
-				      <p>EQ. VENCEDORA 1</p>
-            	<p>EQ. VENCEDORA 2</p>
+				      <p>Try Catch Us</p>
+            	<p>Machine Burning</p>
             </div>
             }/>
         
             <MarathonBox university='UFES SÃO MATEUS'
             teams={ 
             <div className={styles.marathonTeams}>
-				      <p>EQ. SÃO MATEUS</p>
+				      <p>Runtime Terror</p>
             </div>
             }/>
         
-            <MarathonBox university='UFES ALEGRE'
-            teams={ 
-            <div className={styles.marathonTeams}>
-				      <p>EQ. ALEGRE</p>
-            </div>
-            }/>
-        
-            <MarathonBox university='EXTERNAS'
-            teams={ 
-            <div className={styles.marathonTeams}>
-				      <p>EQ. EXT.</p>
-            </div>
-            }/>
         </div>
 
         <ImageBanner variant={1} />
