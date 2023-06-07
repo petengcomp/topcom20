@@ -50,6 +50,8 @@ export default function Results() {
             </div>
 
             <a href='/scores/detailed.html' target="_blank" style={{marginTop: "10rem"}}><Button text="PLACAR GERAL"/></a>
+
+            <a href='/scores/statistics.html' target="_blank" style={{marginTop: "10rem"}}><Button text="ESTATÍSTICAS GERAIS"/></a>
         </div>
             
 
