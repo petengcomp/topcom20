@@ -19,7 +19,7 @@ import trycatchus from '../assets/winner ballons/trycatchus.png'
 
 import { Button } from '../components/Button';
 import ScrollUpButton from '../components/ScrollUpButton';
-import ElasticCarousel from '../components/ElasticCarousel';
+import { CarouselTop } from '../components/CarouselTop';
 
 
 export default function Results() {
@@ -81,7 +81,7 @@ export default function Results() {
         <ImageBanner variant={1} />
 
         <div>
-          <ElasticCarousel />
+          <CarouselTop />
         </div>
 
         <ImageBanner variant={1} />
